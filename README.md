@@ -40,21 +40,29 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Potsawee Manakul, Adian Liusie, Mark J. F. Gales* [[paper]](https://arxiv.org/abs/2303.08896) 2023.03
 
-2. **LM vs LM: Detecting Factual Errors via Cross Examination** `arXiv 2023`
+2. **The Internal State of an LLM Knows When its Lying** `arXiv 2023`
+
+   *Amos Azaria, Tom Mitchell* [[paper]](https://arxiv.org/abs/2304.13734) 2023.04
+
+3. **LM vs LM: Detecting Factual Errors via Cross Examination** `arXiv 2023`
 
    *Roi Cohen, May Hamri, Mor Geva, Amir Globerson* [[paper]](https://arxiv.org/abs/2305.13281) 2023.05
 
-3. **Do Language Models Know When They're Hallucinating References?** `arXiv 2023`
+4. **Do Language Models Know When They're Hallucinating References?** `arXiv 2023`
 
    *Ayush Agrawal, Lester Mackey, Adam Tauman Kalai* [[paper]](https://arxiv.org/abs/2305.18248) 2023.05
 
-4. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation** `arXiv 2023`
+5. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation** `arXiv 2023`
 
    *Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Wei Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2305.14251) 2023.05
 
-5. **Retrieving Supporting Evidence for LLMs Generated Answers** `arXiv 2023`
+6. **Retrieving Supporting Evidence for LLMs Generated Answers** `arXiv 2023`
 
    *Siqing Huo, Negar Arabzadeh, Charles L. A. Clarke* [[paper]](https://arxiv.org/abs/2306.13781) 2023.06
+
+7. **A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation** `arXiv 2023`
+
+   *Neeraj Varshney, Wenlin Yao, Hongming Zhang, Jianshu Chen, Dong Yu* [[paper]](https://arxiv.org/abs/2307.03987) 2023.07
 
 ## Mitigation
 
@@ -68,7 +76,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
-3. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
+3. **Active Retrieval Augmented Generation** `arXiv 2023`
+
+   *Zhengbao Jiang, Frank F. Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig* [[paper]](https://arxiv.org/abs/2305.06983) 2023.06
+
+4. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
 
    *Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, Percy Liang* [[paper]](https://arxiv.org/abs//2307.03172) 2023.07
 
@@ -108,15 +120,19 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 #### Decoding
 
-1. **Look-back Decoding for Open-Ended Text Generation** `arXiv 2023`
+1. **Contrastive Decoding: Open-ended Text Generation as Optimization** `ACL 2023`
+
+   *Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, Mike Lewis* [[paper]](https://arxiv.org/abs/2210.15097)
+
+2. **Look-back Decoding for Open-Ended Text Generation** `arXiv 2023`
 
    *Nan Xu, Chunting Zhou, Asli Celikyilmaz, Xuezhe Ma* [[paper]](https://arxiv.org/abs/2305.13477) 2023.05
 
-2. **Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** `arXiv 2023`
+3. **Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** `arXiv 2023`
 
    *Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih* [[paper]](https://arxiv.org/abs/2305.14739) 2023.05
 
-3. **KL-Divergence Guided Temperature Sampling** `arXiv 2023`
+4. **KL-Divergence Guided Temperature Sampling** `arXiv 2023`
 
    *Chung-Ching Chang, David Reitter, Renat Aksitov, Yun-Hsuan Sung* [[paper]](https://arxiv.org/abs/2306.01286) 2023.06
 
