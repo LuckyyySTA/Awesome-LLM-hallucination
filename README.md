@@ -72,15 +72,19 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.05
 
-2. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
+2. **Augmented Large Language Models with Parametric Knowledge Guiding** `arXiv 2023`
+
+   *Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [paper](https://arxiv.org/abs/2305.04757) 2023.05
+
+3. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
 
    *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
-3. **Active Retrieval Augmented Generation** `arXiv 2023`
+4. **Active Retrieval Augmented Generation** `arXiv 2023`
 
    *Zhengbao Jiang, Frank F. Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig* [[paper]](https://arxiv.org/abs/2305.06983) 2023.06
 
-4. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
+5. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
 
    *Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, Percy Liang* [[paper]](https://arxiv.org/abs//2307.03172) 2023.07
 
