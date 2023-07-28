@@ -100,6 +100,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, Percy Liang* [[paper]](https://arxiv.org/abs//2307.03172) 2023.07
 
+6. **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation** `arXiv 2023`
+
+   *Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, Ji-Rong Wen, Haifeng Wang* [[paper]](https://arxiv.org/abs/2307.11019) 2023.07
+
 #### Attributable LLM
 
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models** `ACL 2023`
