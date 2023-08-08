@@ -183,3 +183,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 2. **HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models** `arXiv 2023`
 
    *Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2305.11747) 2023.05
+
+
+
+## MultiModal
+
+1. **End-to-End Multimodal Fact-Checking and Explanation Generation: A Challenging Dataset and Models** `SIGIR 2023`
+
+   *Barry Menglong Yao, Aditya Shah, Lichao Sun, Jin-Hee Cho, Lifu Huang* [[paper]](https://arxiv.org/abs/2205.12487) 2022.05
