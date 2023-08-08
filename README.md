@@ -146,6 +146,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2307.02185) 2023.07
 
+9. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
+
+   *Ehsan Kamalloo, Aref Jafari, Xinyu Zhang, Nandan Thakur, Jimmy Lin* [[paper]](https://arxiv.org/abs/2307.16883) 2023.07
+
 #### Decoding
 
 1. **Contrastive Decoding: Open-ended Text Generation as Optimization** `ACL 2023`
