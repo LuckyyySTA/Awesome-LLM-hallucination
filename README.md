@@ -82,6 +82,12 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 ## Mitigation
 
+**Multi-Agent**
+
+1. **MetaGPT: Meta Programming for Multi-Agent Collaborative Framework** `arXiv 2023`
+
+   *Sirui Hong, Xiawu Zheng, Jonathan Chen, Yuheng Cheng, Jinlin Wang, Ceyao Zhang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu* [[pdf]](https://arxiv.org/abs/2308.00352) 2023.08
+
 #### Retrieval-Augmented LLM
 
 1. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** `ACL 2023`
@@ -115,6 +121,14 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 8. **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation** `arXiv 2023`
 
    *Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, Ji-Rong Wen, Haifeng Wang* [[paper]](https://arxiv.org/abs/2307.11019) 2023.07
+
+9. **MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models** `arXiv 2023`
+
+   *Yilin Wen, Zifeng Wang, Jimeng Sun* [[paper]](https://arxiv.org/abs/2308.09729)
+
+10. **FoodGPT: A Large Language Model in Food Testing Domain with Incremental Pre-training and Knowledge Graph Prompt** `arXiv 2023`
+
+   *Zhixiao Qi, Yijiong Yu, Meiqi Tu, Junyi Tan, Yongfeng Huang* [[paper]](https://arxiv.org/abs/2308.10173)
 
 #### Attributable LLM
 
@@ -178,6 +192,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Yejin Bang, Samuel Cahyawijaya, Nayeon Lee, Wenliang Dai, Dan Su, Bryan Wilie, Holy Lovenia, Ziwei Ji, Tiezheng Yu, Willy Chung, Quyet V. Do, Yan Xu, Pascale Fung* [[paper]](https://arxiv.org/abs/2302.04023) 2023.02
 
+2. **Head-to-Tail: How Knowledgeable are Large Language Models (LLM)? A.K.A. Will LLMs Replace Knowledge Graphs?** `arXiv 2023`
+
+   *Kai Sun, Yifan Ethan Xu, Hanwen Zha, Yue Liu, Xin Luna Dong* [[paper]](https://arxiv.org/abs/2308.10168)
+
 ## Benchmark
 
 1. **TruthfulQA: Measuring How Models Mimic Human Falsehoods** `ACL 2022`
@@ -187,8 +205,6 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 2. **HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models** `arXiv 2023`
 
    *Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2305.11747) 2023.05
-
-
 
 ## MultiModal
 
