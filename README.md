@@ -74,11 +74,15 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 10. **Generating Benchmarks for Factuality Evaluation of Language Models** `arXiv 2023`
 
-   *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.07
+    *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.07
 
 11. **FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios** `arXiv 2023`
 
      *I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2307.13528) 2023.07
+
+12. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
+
+    *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764) 2023.08
 
 ## Mitigation
 
@@ -128,7 +132,7 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 10. **FoodGPT: A Large Language Model in Food Testing Domain with Incremental Pre-training and Knowledge Graph Prompt** `arXiv 2023`
 
-   *Zhixiao Qi, Yijiong Yu, Meiqi Tu, Junyi Tan, Yongfeng Huang* [[paper]](https://arxiv.org/abs/2308.10173)
+   *Zhixiao Qi, Yijiong Yu, Meiqi Tu, Junyi Tan, Yongfeng Huang* [[paper]](https://arxiv.org/abs/2308.10173) 2023.08
 
 #### Attributable LLM
 
@@ -194,7 +198,7 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 2. **Head-to-Tail: How Knowledgeable are Large Language Models (LLM)? A.K.A. Will LLMs Replace Knowledge Graphs?** `arXiv 2023`
 
-   *Kai Sun, Yifan Ethan Xu, Hanwen Zha, Yue Liu, Xin Luna Dong* [[paper]](https://arxiv.org/abs/2308.10168)
+   *Kai Sun, Yifan Ethan Xu, Hanwen Zha, Yue Liu, Xin Luna Dong* [[paper]](https://arxiv.org/abs/2308.10168) 2023.08
 
 ## Benchmark
 
