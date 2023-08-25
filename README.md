@@ -84,6 +84,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
     *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764) 2023.08
 
+13. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
+
+    *Anirudh Mittal, Timo Schick, Mikel Artetxe, Jane Dwivedi-Yu* [[paper]](https://arxiv.org/abs/2308.12157) 2023.08
+
 ## Mitigation
 
 **Multi-Agent**
