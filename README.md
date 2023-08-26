@@ -104,6 +104,12 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Sirui Hong, Xiawu Zheng, Jonathan Chen, Yuheng Cheng, Jinlin Wang, Ceyao Zhang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu* [[pdf]](https://arxiv.org/abs/2308.00352) 2023.08
 
+#### Refine
+
+1. **PREFER: Prompt Ensemble Learning via Feedback-Reflect-Refine** `arXiv 2023`
+
+   *Chenrui Zhang, Lin Liu, Jinpeng Wang, Chuyuan Wang, Xiao Sun, Hongyu Wang, Mingchen Cai* [[paper]](https://arxiv.org/abs/2308.12033) 2023.08
+
 #### Retrieval-Augmented LLM
 
 1. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** `ACL 2023`
