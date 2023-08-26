@@ -218,7 +218,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Stephanie Lin, Jacob Hilton, Owain Evans* [[paper]](https://arxiv.org/abs/2109.07958) 2021.09
 
-2. **HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models** `arXiv 2023`
+2. **HalOmi: A Manually Annotated Benchmark for Multilingual Hallucination and Omission Detection in Machine Translation** `arXiv 2023`
+
+   *David Dale, Elena Voita, Janice Lam, Prangthip Hansanti, Christophe Ropers, Elahe Kalbassi, Cynthia Gao, Loïc Barrault, Marta R. Costa-jussà* [[paper]](https://arxiv.org/abs/2305.11746) 2023.05
+
+3. **HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models** `arXiv 2023`
 
    *Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2305.11747) 2023.05
 
