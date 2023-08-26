@@ -34,6 +34,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith* [[paper]](https://arxiv.org/abs/2305.13534) 2023.05
 
+7. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
+
+   *Yijie Chen, Yijin Liu, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12674) 2023.08
+
 ## Detection
 
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `arXiv 2023`
