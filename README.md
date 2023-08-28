@@ -34,7 +34,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith* [[paper]](https://arxiv.org/abs/2305.13534) 2023.05
 
-7. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
+7. **Instruction Position Matters in Sequence Generation with Large Language Models** `arXiv 2023`
+
+   *Yijin Liu, Xianfeng Zeng, Fandong Meng, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12097) 2023.08
+
+8. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
 
    *Yijie Chen, Yijin Liu, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12674) 2023.08
 
