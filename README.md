@@ -126,31 +126,43 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 4. **Augmented Large Language Models with Parametric Knowledge Guiding** `arXiv 2023`
 
-   *Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [paper](https://arxiv.org/abs/2305.04757) 2023.05
+   *Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[paper]](https://arxiv.org/abs/2305.04757) 2023.05
 
-5. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
+5. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework** `ACL 2023`
+
+   *Ruochen Zhao, Xingxuan Li, Shafiq Joty, Chengwei Qin, Lidong Bing* [[paper]](https://arxiv.org/abs/2305.03268) 2023.05
+
+6. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
 
    *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
-6. **Active Retrieval Augmented Generation** `arXiv 2023`
+7. **Active Retrieval Augmented Generation** `arXiv 2023`
 
    *Zhengbao Jiang, Frank F. Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig* [[paper]](https://arxiv.org/abs/2305.06983) 2023.06
 
-7. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
+8. **Boosting Language Models Reasoning with Chain-of-Knowledge Prompting** `arXiv 2023`
+
+   *Jianing Wang, Qiushi Sun, Nuo Chen, Xiang Li, Ming Gao* [[paper]](https://arxiv.org/abs/2306.06427) 2023.06
+
+9. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
 
    *Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, Percy Liang* [[paper]](https://arxiv.org/abs//2307.03172) 2023.07
 
-8. **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation** `arXiv 2023`
+10. **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation** `arXiv 2023`
 
    *Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, Ji-Rong Wen, Haifeng Wang* [[paper]](https://arxiv.org/abs/2307.11019) 2023.07
 
-9. **MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models** `arXiv 2023`
+11. **MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models** `arXiv 2023`
 
-   *Yilin Wen, Zifeng Wang, Jimeng Sun* [[paper]](https://arxiv.org/abs/2308.09729)
+    *Yilin Wen, Zifeng Wang, Jimeng Sun* [[paper]](https://arxiv.org/abs/2308.09729) 2023.08
 
-10. **FoodGPT: A Large Language Model in Food Testing Domain with Incremental Pre-training and Knowledge Graph Prompt** `arXiv 2023`
+12. **FoodGPT: A Large Language Model in Food Testing Domain with Incremental Pre-training and Knowledge Graph Prompt** `arXiv 2023`
 
-   *Zhixiao Qi, Yijiong Yu, Meiqi Tu, Junyi Tan, Yongfeng Huang* [[paper]](https://arxiv.org/abs/2308.10173) 2023.08
+    *Zhixiao Qi, Yijiong Yu, Meiqi Tu, Junyi Tan, Yongfeng Huang* [[paper]](https://arxiv.org/abs/2308.10173) 2023.08
+
+13. **Knowledge-Driven CoT: Exploring Faithful Reasoning in LLMs for Knowledge-intensive Question Answering** `arXiv 2023`
+
+    *Keheng Wang, Feiyu Duan, Sirui Wang, Peiguang Li, Yunsen Xian, Chuantao Yin, Wenge Rong, Zhang Xiong* [[paper]](https://arxiv.org/abs/2308.13259) 2023.08
 
 #### Attributable LLM
 
@@ -218,7 +230,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Nuno M. Guerreiro, Duarte Alves, Jonas Waldendorf, Barry Haddow, Alexandra Birch, Pierre Colombo, André F. T. Martins* [[paper]](https://arxiv.org/abs/2303.16104) 2023.03
 
-3. **Head-to-Tail: How Knowledgeable are Large Language Models (LLM)? A.K.A. Will LLMs Replace Knowledge Graphs?** `arXiv 2023`
+3. **Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering** `arXiv 2023`
+
+   *Vaibhav Adlakha, Parishad BehnamGhader, Xing Han Lu, Nicholas Meade, Siva Reddy* [[paper]](https://arxiv.org/abs/2307.16877) 2023.07
+
+4. **Head-to-Tail: How Knowledgeable are Large Language Models (LLM)? A.K.A. Will LLMs Replace Knowledge Graphs?** `arXiv 2023`
 
    *Kai Sun, Yifan Ethan Xu, Hanwen Zha, Yue Liu, Xin Luna Dong* [[paper]](https://arxiv.org/abs/2308.10168) 2023.08
 
