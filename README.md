@@ -18,27 +18,31 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini* [[paper]](https://aclanthology.org/2022.acl-long.577/) 2021.07
 
-3. **Revisiting the Architectures like Pointer Networks to Efficiently Improve the Next Word Distribution, Summarization Factuality, and Beyond** `ACL 2023 findings`
+3. **Large Language Models Can Be Easily Distracted by Irrelevant Context** `ICML 2023`
+
+   *Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed Chi, Nathanael Schärli, Denny Zhou* [[paper]](https://proceedings.mlr.press/v202/shi23a/shi23a.pdf) 2023.01
+
+4. **Revisiting the Architectures like Pointer Networks to Efficiently Improve the Next Word Distribution, Summarization Factuality, and Beyond** `ACL 2023 findings`
 
    *Haw-Shiuan Chang, Zonghai Yao, Alolika Gon, Hong Yu, Andrew McCallum* [[paper]](https://arxiv.org/abs/2305.12289) 2023.03
 
-4. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
+5. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
 
    *Shen Zheng, Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2304.10513) 2023.04
 
-5. **Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes** `arXiv 2023`
+6. **Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes** `arXiv 2023`
 
    *Jian Xie, Kai Zhang, Jiangjie Chen, Renze Lou, Yu Su* [[paper]](https://arxiv.org/abs/2305.13300) 2023.05
 
-6. **How Language Model Hallucinations Can Snowball** `arXiv 2023`
+7. **How Language Model Hallucinations Can Snowball** `arXiv 2023`
 
    *Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith* [[paper]](https://arxiv.org/abs/2305.13534) 2023.05
 
-7. **Instruction Position Matters in Sequence Generation with Large Language Models** `arXiv 2023`
+8. **Instruction Position Matters in Sequence Generation with Large Language Models** `arXiv 2023`
 
    *Yijin Liu, Xianfeng Zeng, Fandong Meng, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12097) 2023.08
 
-8. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
+9. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
 
    *Yijie Chen, Yijin Liu, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12674) 2023.08
 
@@ -120,43 +124,51 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 #### Retrieval-Augmented LLM
 
-1. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** `ACL 2023`
+1. **Large Language Models with Controllable Working Memory** `ACL 2023 findings`
+
+   *Daliang Li, Ankit Singh Rawat, Manzil Zaheer, Xin Wang, Michal Lukasik, Andreas Veit, Felix Yu, Sanjiv Kumar* [[paper]](https://arxiv.org/abs/2211.05110) 2022.11
+
+2. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** `ACL 2023`
 
    *Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, Ashish Sabharwal* [[paper]](https://arxiv.org/abs/2212.10509) 2022.12
 
-2. **In-Context Retrieval-Augmented Language Models** `TACL 2023`
+3. **In-Context Retrieval-Augmented Language Models** `TACL 2023`
 
    *Ori Ram, Yoav Levine, Itay Dalmedigos, Dor Muhlgay, Amnon Shashua, Kevin Leyton-Brown, Yoav Shoham* [[paper]](https://arxiv.org/abs/2302.00083) 2023.02
 
-3. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment** `arXiv 2023`
+4. **Context-faithful Prompting for Large Language Models** `arXiv 2023`
+
+   *Wenxuan Zhou, Sheng Zhang, Hoifung Poon, Muhao Chen* [[paper]](https://arxiv.org/abs/2303.11315) 2023.03
+
+5. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment** `arXiv 2023`
 
    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.05
 
-4. **Augmented Large Language Models with Parametric Knowledge Guiding** `arXiv 2023`
+6. **Augmented Large Language Models with Parametric Knowledge Guiding** `arXiv 2023`
 
    *Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[paper]](https://arxiv.org/abs/2305.04757) 2023.05
 
-5. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework** `ACL 2023`
+7. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework** `ACL 2023`
 
    *Ruochen Zhao, Xingxuan Li, Shafiq Joty, Chengwei Qin, Lidong Bing* [[paper]](https://arxiv.org/abs/2305.03268) 2023.05
 
-6. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
+8. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
 
    *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
-7. **Active Retrieval Augmented Generation** `arXiv 2023`
+9. **Active Retrieval Augmented Generation** `arXiv 2023`
 
    *Zhengbao Jiang, Frank F. Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig* [[paper]](https://arxiv.org/abs/2305.06983) 2023.06
 
-8. **Boosting Language Models Reasoning with Chain-of-Knowledge Prompting** `arXiv 2023`
+10. **Boosting Language Models Reasoning with Chain-of-Knowledge Prompting** `arXiv 2023`
 
    *Jianing Wang, Qiushi Sun, Nuo Chen, Xiang Li, Ming Gao* [[paper]](https://arxiv.org/abs/2306.06427) 2023.06
 
-9. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
+11. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
 
-   *Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, Percy Liang* [[paper]](https://arxiv.org/abs//2307.03172) 2023.07
+    *Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, Percy Liang* [[paper]](https://arxiv.org/abs//2307.03172) 2023.07
 
-10. **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation** `arXiv 2023`
+12. **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation** `arXiv 2023`
 
    *Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, Ji-Rong Wen, Haifeng Wang* [[paper]](https://arxiv.org/abs/2307.11019) 2023.07
 
