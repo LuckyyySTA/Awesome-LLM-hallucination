@@ -128,47 +128,51 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Daliang Li, Ankit Singh Rawat, Manzil Zaheer, Xin Wang, Michal Lukasik, Andreas Veit, Felix Yu, Sanjiv Kumar* [[paper]](https://arxiv.org/abs/2211.05110) 2022.11
 
-2. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** `ACL 2023`
+2. **DisentQA: Disentangling Parametric and Contextual Knowledge with Counterfactual Question Answering** `ACL`
+
+   *Ella Neeman, Roee Aharoni, Or Honovich, Leshem Choshen, Idan Szpektor, Omri Abend* [[paper]](https://aclanthology.org/2023.acl-long.559/) 2022.11
+
+3. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** `ACL 2023`
 
    *Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, Ashish Sabharwal* [[paper]](https://arxiv.org/abs/2212.10509) 2022.12
 
-3. **In-Context Retrieval-Augmented Language Models** `TACL 2023`
+4. **In-Context Retrieval-Augmented Language Models** `TACL 2023`
 
    *Ori Ram, Yoav Levine, Itay Dalmedigos, Dor Muhlgay, Amnon Shashua, Kevin Leyton-Brown, Yoav Shoham* [[paper]](https://arxiv.org/abs/2302.00083) 2023.02
 
-4. **Context-faithful Prompting for Large Language Models** `arXiv 2023`
+5. **Context-faithful Prompting for Large Language Models** `arXiv 2023`
 
    *Wenxuan Zhou, Sheng Zhang, Hoifung Poon, Muhao Chen* [[paper]](https://arxiv.org/abs/2303.11315) 2023.03
 
-5. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment** `arXiv 2023`
+6. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment** `arXiv 2023`
 
    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.05
 
-6. **Augmented Large Language Models with Parametric Knowledge Guiding** `arXiv 2023`
+7. **Augmented Large Language Models with Parametric Knowledge Guiding** `arXiv 2023`
 
    *Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[paper]](https://arxiv.org/abs/2305.04757) 2023.05
 
-7. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework** `ACL 2023`
+8. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework** `ACL 2023`
 
    *Ruochen Zhao, Xingxuan Li, Shafiq Joty, Chengwei Qin, Lidong Bing* [[paper]](https://arxiv.org/abs/2305.03268) 2023.05
 
-8. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
+9. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
 
    *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
-9. **Active Retrieval Augmented Generation** `arXiv 2023`
+10. **Active Retrieval Augmented Generation** `arXiv 2023`
 
    *Zhengbao Jiang, Frank F. Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig* [[paper]](https://arxiv.org/abs/2305.06983) 2023.06
 
-10. **Boosting Language Models Reasoning with Chain-of-Knowledge Prompting** `arXiv 2023`
+11. **Boosting Language Models Reasoning with Chain-of-Knowledge Prompting** `arXiv 2023`
 
-   *Jianing Wang, Qiushi Sun, Nuo Chen, Xiang Li, Ming Gao* [[paper]](https://arxiv.org/abs/2306.06427) 2023.06
+    *Jianing Wang, Qiushi Sun, Nuo Chen, Xiang Li, Ming Gao* [[paper]](https://arxiv.org/abs/2306.06427) 2023.06
 
-11. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
+12. **Lost in the Middle: How Language Models Use Long Contexts** `arXiv 2023`
 
     *Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, Percy Liang* [[paper]](https://arxiv.org/abs//2307.03172) 2023.07
 
-12. **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation** `arXiv 2023`
+13. **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation** `arXiv 2023`
 
    *Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, Ji-Rong Wen, Haifeng Wang* [[paper]](https://arxiv.org/abs/2307.11019) 2023.07
 
