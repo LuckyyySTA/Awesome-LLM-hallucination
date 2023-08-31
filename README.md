@@ -188,6 +188,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
     *Keheng Wang, Feiyu Duan, Sirui Wang, Peiguang Li, Yunsen Xian, Chuantao Yin, Wenge Rong, Zhang Xiong* [[paper]](https://arxiv.org/abs/2308.13259) 2023.08
 
+14. **Optimizing Factual Accuracy in Text Generation through Dynamic Knowledge Selection** `arXiv 2023`
+
+    *Hongjin Qian, Zhicheng Dou, Jiejun Tan, Haonan Chen, Haoqi Gu, Ruofei Lai, Xinyu Zhang, Zhao Cao, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2308.15711) 2023.08
+
 #### Attributable LLM
 
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models** `ACL 2023`
