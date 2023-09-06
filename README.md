@@ -162,7 +162,7 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 10. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
 
-   *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
+    *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
 11. **Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy** `arXiv 2023`
 
