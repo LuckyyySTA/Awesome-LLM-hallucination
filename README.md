@@ -164,7 +164,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.05
 
-10. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
+10. **Query Rewriting for Retrieval-Augmented Large Language Models** `arXiv 2023`
+
+   *Xinbei Ma, Yeyun Gong, Pengcheng He, Hai Zhao, Nan Duan* [[paper]](https://arxiv.org/abs/2305.14283) 2023.05
+
+11. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
 
     *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
