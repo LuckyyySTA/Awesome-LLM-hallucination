@@ -244,7 +244,7 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 10. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
 
-   *Ehsan Kamalloo, Aref Jafari, Xinyu Zhang, Nandan Thakur, Jimmy Lin* [[paper]](https://arxiv.org/abs/2307.16883) 2023.07
+    *Ehsan Kamalloo, Aref Jafari, Xinyu Zhang, Nandan Thakur, Jimmy Lin* [[paper]](https://arxiv.org/abs/2307.16883) 2023.07
 
 #### Decoding
 
