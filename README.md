@@ -230,23 +230,27 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Hongjing Qian, Yutao Zhu, Zhicheng Dou, Haoqi Gu, Xinyu Zhang, Zheng Liu, Ruofei Lai, Zhao Cao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2304.04358) 2023.04
 
-6. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023`
-
-   *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
-
-7. **PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions** `arXiv 2023`
-
-   *Anthony Chen, Panupong Pasupat, Sameer Singh, Hongrae Lee, Kelvin Guu* [[paper]](https://arxiv.org/abs/2305.14908) 2023.05
-
-8. **Automatic Evaluation of Attribution by Large Language Models** `arXiv 2023`
+6. **Automatic Evaluation of Attribution by Large Language Models** `arXiv 2023`
 
    *Xiang Yue, Boshi Wang, Kai Zhang, Ziru Chen, Yu Su, Huan Sun* [[paper]](https://arxiv.org/abs/2305.06311) 2023.05
 
-9. **Citation: A Key to Building Responsible and Accountable Large Language Models** `arXiv 2023`
+7. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023`
+
+   *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
+
+8. **PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions** `arXiv 2023`
+
+   *Anthony Chen, Panupong Pasupat, Sameer Singh, Hongrae Lee, Kelvin Guu* [[paper]](https://arxiv.org/abs/2305.14908) 2023.05
+
+9. **RefGPT: Reference -> Truthful & Customized Dialogues Generation by GPTs and for GPTs** `arXiv 2023`
+
+   *Dongjie Yang, Ruifeng Yuan, YuanTao Fan, YiFei Yang, Zili Wang, Shusen Wang, Hai Zhao* [[paper]](https://arxiv.org/abs/2305.14994) 2023.05
+
+10. **Citation: A Key to Building Responsible and Accountable Large Language Models** `arXiv 2023`
 
    *Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2307.02185) 2023.07
 
-10. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
+11. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
 
     *Ehsan Kamalloo, Aref Jafari, Xinyu Zhang, Nandan Thakur, Jimmy Lin* [[paper]](https://arxiv.org/abs/2307.16883) 2023.07
 
