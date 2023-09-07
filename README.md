@@ -264,6 +264,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Chung-Ching Chang, David Reitter, Renat Aksitov, Yun-Hsuan Sung* [[paper]](https://arxiv.org/abs/2306.01286) 2023.06
 
+5. **Improving Code Generation by Dynamic Temperature Sampling** `arXiv 2023`
+
+   *Yuqi Zhu, Jia Allen Li, Ge Li, YunFei Zhao, Jia Li, Zhi Jin, Hong Mei* [[paper]](https://arxiv.org/abs/2309.02772) 2023.09
+
 ## Evaluation
 
 1. **A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity** `arXiv 2023`
