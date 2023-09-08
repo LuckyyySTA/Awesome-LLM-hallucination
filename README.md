@@ -8,6 +8,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Yejin Bang, Wenliang Dai, Andrea Madotto, Pascale Fung* [[paper]](https://arxiv.org/abs/2202.03629) 2022.02
 
+2. **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models** `arXiv 2023`
+
+   *Yue Zhang, Yafu Li, Leyang Cui, Deng Cai, Lemao Liu, Tingchen Fu, Xinting Huang, Enbo Zhao, Yu Zhang, Yulong Chen, Longyue Wang, Anh Tuan Luu, Wei Bi, Freda Shi, Shuming Shi* [[paper]](https://arxiv.org/abs/2309.01219)
+
 ## Causes
 
 1. **On Exposure Bias, Hallucination and Domain Shift in Neural Machine Translation** `ACL 2020`
