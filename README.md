@@ -250,7 +250,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Dongjie Yang, Ruifeng Yuan, YuanTao Fan, YiFei Yang, Zili Wang, Shusen Wang, Hai Zhao* [[paper]](https://arxiv.org/abs/2305.14994) 2023.05
 
-10. **Citation: A Key to Building Responsible and Accountable Large Language Models** `arXiv 2023`
+10. **Large Language Models are Built-in Autoregressive Search Engines** `ACL 2023 findings`
+
+   *Noah Ziems, Wenhao Yu, Zhihan Zhang, Meng Jiang* [[paper]](https://aclanthology.org/2023.findings-acl.167.pdf)
+
+11. **Citation: A Key to Building Responsible and Accountable Large Language Models** `arXiv 2023`
 
    *Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2307.02185) 2023.07
 
@@ -260,23 +264,31 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 #### Decoding
 
-1. **Contrastive Decoding: Open-ended Text Generation as Optimization** `ACL 2023`
+1. **Sticking to the Facts: Confident Decoding for Faithful Data-to-Text Generation** `arXiv 2019`
+
+   *Ran Tian, Shashi Narayan, Thibault Sellam, Ankur P. Parikh* [[paper]](https://arxiv.org/abs/1910.08684)
+
+2. **Trading Off Diversity and Quality in Natural Language Generation** `HumEval 2021`
+
+   *Hugh Zhang, Daniel Duckworth, Daphne Ippolito, Arvind Neelakantan* [[paper]](https://aclanthology.org/2021.humeval-1.3/)
+
+3. **Contrastive Decoding: Open-ended Text Generation as Optimization** `ACL 2023`
 
    *Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, Mike Lewis* [[paper]](https://arxiv.org/abs/2210.15097)
 
-2. **Look-back Decoding for Open-Ended Text Generation** `arXiv 2023`
+4. **Look-back Decoding for Open-Ended Text Generation** `arXiv 2023`
 
    *Nan Xu, Chunting Zhou, Asli Celikyilmaz, Xuezhe Ma* [[paper]](https://arxiv.org/abs/2305.13477) 2023.05
 
-3. **Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** `arXiv 2023`
+5. **Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** `arXiv 2023`
 
    *Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih* [[paper]](https://arxiv.org/abs/2305.14739) 2023.05
 
-4. **KL-Divergence Guided Temperature Sampling** `arXiv 2023`
+6. **KL-Divergence Guided Temperature Sampling** `arXiv 2023`
 
    *Chung-Ching Chang, David Reitter, Renat Aksitov, Yun-Hsuan Sung* [[paper]](https://arxiv.org/abs/2306.01286) 2023.06
 
-5. **Improving Code Generation by Dynamic Temperature Sampling** `arXiv 2023`
+7. **Improving Code Generation by Dynamic Temperature Sampling** `arXiv 2023`
 
    *Yuqi Zhu, Jia Allen Li, Ge Li, YunFei Zhao, Jia Li, Zhi Jin, Hong Mei* [[paper]](https://arxiv.org/abs/2309.02772) 2023.09
 
