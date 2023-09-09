@@ -140,35 +140,39 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Ella Neeman, Roee Aharoni, Or Honovich, Leshem Choshen, Idan Szpektor, Omri Abend* [[paper]](https://aclanthology.org/2023.acl-long.559/) 2022.11
 
-3. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** `ACL 2023`
+3. **When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories** `ACL 2023`
+
+   *Alex Mallen, Akari Asai, Victor Zhong, Rajarshi Das, Daniel Khashabi, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2212.10511) 2022.12
+
+4. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** `ACL 2023`
 
    *Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, Ashish Sabharwal* [[paper]](https://arxiv.org/abs/2212.10509) 2022.12
 
-4. **In-Context Retrieval-Augmented Language Models** `TACL 2023`
+5. **In-Context Retrieval-Augmented Language Models** `TACL 2023`
 
    *Ori Ram, Yoav Levine, Itay Dalmedigos, Dor Muhlgay, Amnon Shashua, Kevin Leyton-Brown, Yoav Shoham* [[paper]](https://arxiv.org/abs/2302.00083) 2023.02
 
-5. **Context-faithful Prompting for Large Language Models** `arXiv 2023`
+6. **Context-faithful Prompting for Large Language Models** `arXiv 2023`
 
    *Wenxuan Zhou, Sheng Zhang, Hoifung Poon, Muhao Chen* [[paper]](https://arxiv.org/abs/2303.11315) 2023.03
 
-6. **Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks** `arXiv 2023`
+7. **Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks** `arXiv 2023`
 
    *Shicheng Xu, Liang Pang, Huawei Shen, Xueqi Cheng, Tat-Seng Chua* [[paper]](https://arxiv.org/abs/2304.14732) 2023.04
 
-7. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework** `ACL 2023`
+8. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework** `ACL 2023`
 
    *Ruochen Zhao, Xingxuan Li, Shafiq Joty, Chengwei Qin, Lidong Bing* [[paper]](https://arxiv.org/abs/2305.03268) 2023.05
 
-8. **Augmented Large Language Models with Parametric Knowledge Guiding** `arXiv 2023`
+9. **Augmented Large Language Models with Parametric Knowledge Guiding** `arXiv 2023`
 
    *Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[paper]](https://arxiv.org/abs/2305.04757) 2023.05
 
-9. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment** `arXiv 2023`
+10. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment** `arXiv 2023`
 
    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.05
 
-10. **Query Rewriting for Retrieval-Augmented Large Language Models** `arXiv 2023`
+11. **Query Rewriting for Retrieval-Augmented Large Language Models** `arXiv 2023`
 
    *Xinbei Ma, Yeyun Gong, Pengcheng He, Hai Zhao, Nan Duan* [[paper]](https://arxiv.org/abs/2305.14283) 2023.05
 
