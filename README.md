@@ -14,39 +14,43 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 ## Causes
 
-1. **On Exposure Bias, Hallucination and Domain Shift in Neural Machine Translation** `ACL 2020`
+1. **How Pre-trained Language Models Capture Factual Knowledge? A Causal-Inspired Analysis** `ACL 2022 findings`
+
+   *Shaobo Li, Xiaoguang Li, Lifeng Shang, Zhenhua Dong, Chengjie Sun, Bingquan Liu, Zhenzhou Ji, Xin Jiang, Qun Liu* [[paper]](https://arxiv.org/abs/2203.16747)
+
+2. **On Exposure Bias, Hallucination and Domain Shift in Neural Machine Translation** `ACL 2020`
 
    *Chaojun Wang, Rico Sennrich* [[paper]](https://aclanthology.org/2020.acl-main.326/) 2020.05
 
-2. **Deduplicating Training Data Makes Language Models Better** `ACL 2022`
+3. **Deduplicating Training Data Makes Language Models Better** `ACL 2022`
 
    *Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini* [[paper]](https://aclanthology.org/2022.acl-long.577/) 2021.07
 
-3. **Large Language Models Can Be Easily Distracted by Irrelevant Context** `ICML 2023`
+4. **Large Language Models Can Be Easily Distracted by Irrelevant Context** `ICML 2023`
 
    *Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed Chi, Nathanael Schärli, Denny Zhou* [[paper]](https://proceedings.mlr.press/v202/shi23a/shi23a.pdf) 2023.01
 
-4. **Revisiting the Architectures like Pointer Networks to Efficiently Improve the Next Word Distribution, Summarization Factuality, and Beyond** `ACL 2023 findings`
+5. **Revisiting the Architectures like Pointer Networks to Efficiently Improve the Next Word Distribution, Summarization Factuality, and Beyond** `ACL 2023 findings`
 
    *Haw-Shiuan Chang, Zonghai Yao, Alolika Gon, Hong Yu, Andrew McCallum* [[paper]](https://arxiv.org/abs/2305.12289) 2023.03
 
-5. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
+6. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
 
    *Shen Zheng, Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2304.10513) 2023.04
 
-6. **Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes** `arXiv 2023`
+7. **Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes** `arXiv 2023`
 
    *Jian Xie, Kai Zhang, Jiangjie Chen, Renze Lou, Yu Su* [[paper]](https://arxiv.org/abs/2305.13300) 2023.05
 
-7. **How Language Model Hallucinations Can Snowball** `arXiv 2023`
+8. **How Language Model Hallucinations Can Snowball** `arXiv 2023`
 
    *Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith* [[paper]](https://arxiv.org/abs/2305.13534) 2023.05
 
-8. **Instruction Position Matters in Sequence Generation with Large Language Models** `arXiv 2023`
+9. **Instruction Position Matters in Sequence Generation with Large Language Models** `arXiv 2023`
 
    *Yijin Liu, Xianfeng Zeng, Fandong Meng, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12097) 2023.08
 
-9. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
+10. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
 
    *Yijie Chen, Yijin Liu, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12674) 2023.08
 
