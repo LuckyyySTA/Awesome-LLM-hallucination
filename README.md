@@ -52,7 +52,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 10. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
 
-   *Yijie Chen, Yijin Liu, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12674) 2023.08
+    *Yijie Chen, Yijin Liu, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12674) 2023.08
+
+11. **Quantifying and Attributing the Hallucination of Large Language Models via Association Analysis** `arXiv 2023`
+
+    *Li Du, Yequan Wang, Xingrun Xing, Yiqun Ya, Xiang Li, Xin Jiang, Xuezhi Fang* [[paper]](https://arxiv.org/abs/2309.05217)
 
 ## Detection
 
@@ -94,7 +98,7 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 10. **Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs** `arXiv 2023`
 
-   *Miao Xiong, Zhiyuan Hu, Xinyang Lu, Yifei Li, Jie Fu, Junxian He, Bryan Hooi* [[paper]](https://arxiv.org/abs/2306.13063) 2023.06
+    *Miao Xiong, Zhiyuan Hu, Xinyang Lu, Yifei Li, Jie Fu, Junxian He, Bryan Hooi* [[paper]](https://arxiv.org/abs/2306.13063) 2023.06
 
 11. **A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation** `arXiv 2023`
 
