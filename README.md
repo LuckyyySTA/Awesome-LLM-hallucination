@@ -12,6 +12,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Yue Zhang, Yafu Li, Leyang Cui, Deng Cai, Lemao Liu, Tingchen Fu, Xinting Huang, Enbo Zhao, Yu Zhang, Yulong Chen, Longyue Wang, Anh Tuan Luu, Wei Bi, Freda Shi, Shuming Shi* [[paper]](https://arxiv.org/abs/2309.01219) 2023.09
 
+3. **Cognitive Mirage: A Review of Hallucinations in Large Language Models** `arXiv 2023`
+
+   *Hongbin Ye, Tong Liu, Aijia Zhang, Wei Hua, Weiqiang Jia* [[paper]](https://arxiv.org/abs/2309.06794)
+
 ## Causes
 
 1. **How Pre-trained Language Models Capture Factual Knowledge? A Causal-Inspired Analysis** `ACL 2022 findings`
