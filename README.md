@@ -277,6 +277,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 11. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
 
     *Ehsan Kamalloo, Aref Jafari, Xinyu Zhang, Nandan Thakur, Jimmy Lin* [[paper]](https://arxiv.org/abs/2307.16883) 2023.07
+    
+11. **ExpertQA: Expert-Curated Questions and Attributed Answers** `arXiv 2023`
+
+    *Chaitanya Malaviya, Subin Lee, Sihao Chen, Elizabeth Sieber, Mark Yatskar, Dan Roth*  [[paper]](https://arxiv.org/abs/2309.07852) 2023.09
 
 #### Decoding
 
@@ -310,7 +314,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 8. **Mitigating Hallucinations and Off-target Machine Translation with Source-Contrastive and Language-Contrastive Decoding** `arXiv 2023`
 
-   *Rico Sennrich, Jannis Vamvas, Alireza Mohammadshahi* [[paper]](https://arxiv.org/abs/2309.07098)
+   *Rico Sennrich, Jannis Vamvas, Alireza Mohammadshahi* [[paper]](https://arxiv.org/abs/2309.07098) 2023.09
+
+9. **DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models** `arXiv 2023`
+
+   *Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, Pengcheng He* [[paper]](https://arxiv.org/abs/2309.03883) 2023.09
 
 ## Evaluation
 
