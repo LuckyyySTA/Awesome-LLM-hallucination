@@ -182,11 +182,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 10. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment** `arXiv 2023`
 
-   *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.05
+    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.05
 
 11. **Query Rewriting for Retrieval-Augmented Large Language Models** `arXiv 2023`
 
-   *Xinbei Ma, Yeyun Gong, Pengcheng He, Hai Zhao, Nan Duan* [[paper]](https://arxiv.org/abs/2305.14283) 2023.05
+    *Xinbei Ma, Yeyun Gong, Pengcheng He, Hai Zhao, Nan Duan* [[paper]](https://arxiv.org/abs/2305.14283) 2023.05
 
 11. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023` 
 
@@ -234,55 +234,63 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Hannah Rashkin, Vitaly Nikolaev, Matthew Lamm, Lora Aroyo, Michael Collins, Dipanjan Das, Slav Petrov, Gaurav Singh Tomar, Iulia Turc, David Reitter* [[paper]](https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00486/116438) 2021.12
 
-2. **RARR: Researching and Revising What Language Models Say, Using Language Models** `ACL 2023`
+2. **WebGPT: Browser-assisted question-answering with human feedback** `arXiv 2021`
+
+   *Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, John Schulman* [[paper]](https://arxiv.org/abs/2112.09332) 2021.12
+
+3. **Teaching language models to support answers with verified quotes** `arXiv 2021`
+
+   *Jacob Menick, Maja Trebacz, Vladimir Mikulik, John Aslanides, Francis Song, Martin Chadwick, Mia Glaese, Susannah Young, Lucy Campbell-Gillingham, Geoffrey Irving, Nat McAleese* [[paper]](https://arxiv.org/abs/2203.11147) 2022.03
+
+4. **RARR: Researching and Revising What Language Models Say, Using Language Models** `ACL 2023`
 
    *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
 
-3. **Attributed Question Answering: Evaluation and Modeling for Attributed Large Language Models** `arXiv 2022`
+5. **Attributed Question Answering: Evaluation and Modeling for Attributed Large Language Models** `arXiv 2022`
 
    *Bernd Bohnet, Vinh Q. Tran, Pat Verga, Roee Aharoni, Daniel Andor, Livio Baldini Soares, Massimiliano Ciaramita, Jacob Eisenstein, Kuzman Ganchev, Jonathan Herzig, Kai Hui, Tom Kwiatkowski, Ji Ma, Jianmo Ni, Lierni Sestorain Saralegui, Tal Schuster, William W. Cohen, Michael Collins, Dipanjan Das, Donald Metzler, Slav Petrov, Kellie Webster* [[paper]](https://arxiv.org/abs/2212.08037) 2022.12
 
-4. **Characterizing Attribution and Fluency Tradeoffs for Retrieval-Augmented Large Language Models** `arXiv 2023`
+6. **Characterizing Attribution and Fluency Tradeoffs for Retrieval-Augmented Large Language Models** `arXiv 2023`
 
    *Renat Aksitov, Chung-Ching Chang, David Reitter, Siamak Shakeri, Yunhsuan Sung* [[paper]](https://arxiv.org/abs/2302.05578) 2023.02
 
-5. **Evaluating Verifiability in Generative Search Engines** `arXiv 2023`
+7. **Evaluating Verifiability in Generative Search Engines** `arXiv 2023`
 
    *Nelson F. Liu, Tianyi Zhang, Percy Liang* [[paper]](https://arxiv.org/abs/2304.09848) 2023.04
 
-6. **WebBrain: Learning to Generate Factually Correct Articles for Queries by Grounding on Large Web Corpus** `arXiv 2023`
+8. **WebBrain: Learning to Generate Factually Correct Articles for Queries by Grounding on Large Web Corpus** `arXiv 2023`
 
    *Hongjing Qian, Yutao Zhu, Zhicheng Dou, Haoqi Gu, Xinyu Zhang, Zheng Liu, Ruofei Lai, Zhao Cao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2304.04358) 2023.04
 
-7. **Automatic Evaluation of Attribution by Large Language Models** `arXiv 2023`
+9. **Automatic Evaluation of Attribution by Large Language Models** `arXiv 2023`
 
    *Xiang Yue, Boshi Wang, Kai Zhang, Ziru Chen, Yu Su, Huan Sun* [[paper]](https://arxiv.org/abs/2305.06311) 2023.05
 
-8. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023`
+10. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023`
 
    *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
-9. **PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions** `arXiv 2023`
+11. **PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions** `arXiv 2023`
 
-   *Anthony Chen, Panupong Pasupat, Sameer Singh, Hongrae Lee, Kelvin Guu* [[paper]](https://arxiv.org/abs/2305.14908) 2023.05
+    *Anthony Chen, Panupong Pasupat, Sameer Singh, Hongrae Lee, Kelvin Guu* [[paper]](https://arxiv.org/abs/2305.14908) 2023.05
 
-10. **RefGPT: Reference -> Truthful & Customized Dialogues Generation by GPTs and for GPTs** `arXiv 2023`
+12. **RefGPT: Reference -> Truthful & Customized Dialogues Generation by GPTs and for GPTs** `arXiv 2023`
 
-   *Dongjie Yang, Ruifeng Yuan, YuanTao Fan, YiFei Yang, Zili Wang, Shusen Wang, Hai Zhao* [[paper]](https://arxiv.org/abs/2305.14994) 2023.05
+    *Dongjie Yang, Ruifeng Yuan, YuanTao Fan, YiFei Yang, Zili Wang, Shusen Wang, Hai Zhao* [[paper]](https://arxiv.org/abs/2305.14994) 2023.05
 
-11. **Large Language Models are Built-in Autoregressive Search Engines** `ACL 2023 findings`
+13. **Large Language Models are Built-in Autoregressive Search Engines** `ACL 2023 findings`
 
-   *Noah Ziems, Wenhao Yu, Zhihan Zhang, Meng Jiang* [[paper]](https://aclanthology.org/2023.findings-acl.167.pdf)
+    *Noah Ziems, Wenhao Yu, Zhihan Zhang, Meng Jiang* [[paper]](https://aclanthology.org/2023.findings-acl.167.pdf)
 
-11. **Citation: A Key to Building Responsible and Accountable Large Language Models** `arXiv 2023`
+14. **Citation: A Key to Building Responsible and Accountable Large Language Models** `arXiv 2023`
 
-   *Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2307.02185) 2023.07
+     *Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2307.02185) 2023.07
 
-11. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
+15. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
 
     *Ehsan Kamalloo, Aref Jafari, Xinyu Zhang, Nandan Thakur, Jimmy Lin* [[paper]](https://arxiv.org/abs/2307.16883) 2023.07
-    
-11. **ExpertQA: Expert-Curated Questions and Attributed Answers** `arXiv 2023`
+
+16. **ExpertQA: Expert-Curated Questions and Attributed Answers** `arXiv 2023`
 
     *Chaitanya Malaviya, Subin Lee, Sihao Chen, Elizabeth Sieber, Mark Yatskar, Dan Roth*  [[paper]](https://arxiv.org/abs/2309.07852) 2023.09
 
