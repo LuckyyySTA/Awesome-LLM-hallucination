@@ -62,6 +62,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
     *Li Du, Yequan Wang, Xingrun Xing, Yiqun Ya, Xiang Li, Xin Jiang, Xuezhi Fang* [[paper]](https://arxiv.org/abs/2309.05217)
 
+12. **"Merge Conflicts!" Exploring the Impacts of External Distractors to Parametric Knowledge Graphs** `arXiv 2023`
+
+    *Cheng Qian, Xinran Zhao, Sherry Tongshuang Wu* [[paper]](https://arxiv.org/abs/2309.08594) 2023.09
+
 ## Detection
 
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `arXiv 2023`
@@ -300,6 +304,18 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 #### Decoding
 
+##### Contrastive Decoding
+
+1. **Contrastive Decoding: Open-ended Text Generation as Optimization** `ACL 2023`
+
+   *Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, Mike Lewis* [[paper]](https://arxiv.org/abs/2210.15097)
+
+2. **DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models** `arXiv 2023`
+
+   *Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, Pengcheng He* [[paper]](https://arxiv.org/abs/2309.03883) 2023.09
+
+##### Others
+
 1. **Sticking to the Facts: Confident Decoding for Faithful Data-to-Text Generation** `arXiv 2019`
 
    *Ran Tian, Shashi Narayan, Thibault Sellam, Ankur P. Parikh* [[paper]](https://arxiv.org/abs/1910.08684)
@@ -307,10 +323,6 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 2. **Trading Off Diversity and Quality in Natural Language Generation** `HumEval 2021`
 
    *Hugh Zhang, Daniel Duckworth, Daphne Ippolito, Arvind Neelakantan* [[paper]](https://aclanthology.org/2021.humeval-1.3/)
-
-3. **Contrastive Decoding: Open-ended Text Generation as Optimization** `ACL 2023`
-
-   *Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, Mike Lewis* [[paper]](https://arxiv.org/abs/2210.15097)
 
 4. **Look-back Decoding for Open-Ended Text Generation** `arXiv 2023`
 
@@ -331,10 +343,6 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 8. **Mitigating Hallucinations and Off-target Machine Translation with Source-Contrastive and Language-Contrastive Decoding** `arXiv 2023`
 
    *Rico Sennrich, Jannis Vamvas, Alireza Mohammadshahi* [[paper]](https://arxiv.org/abs/2309.07098) 2023.09
-
-9. **DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models** `arXiv 2023`
-
-   *Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, Pengcheng He* [[paper]](https://arxiv.org/abs/2309.03883) 2023.09
 
 ## Evaluation
 
