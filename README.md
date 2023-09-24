@@ -416,6 +416,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2305.11747) 2023.05
 
+4. **FELM: Benchmarking Factuality Evaluation of Large Language Models** `NeurIPS 2023`
+
+   *Shiqi Chen, Yiran Zhao, Jinghan Zhang, I-Chun Chern, Siyang Gao, Pengfei Liu, Junxian He* 2023.09
+
 ## MultiModal
 
 1. **End-to-End Multimodal Fact-Checking and Explanation Generation: A Challenging Dataset and Models** `SIGIR 2023`
