@@ -84,31 +84,35 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Kung-Hsiang Huang, Hou Pong Chan, Heng Ji* [[paper]](https://arxiv.org/abs/2305.07982) 2023.05
 
-4. **LM vs LM: Detecting Factual Errors via Cross Examination** `arXiv 2023`
+4. **Fact-Checking Complex Claims with Program-Guided Reasoning** `ACL 2023`
+
+   *Liangming Pan, Xiaobao Wu, Xinyuan Lu, Anh Tuan Luu, William Yang Wang, Min-Yen Kan, Preslav Nakov* [[paper]](https://arxiv.org/abs/2305.12744) 2023.05
+
+5. **LM vs LM: Detecting Factual Errors via Cross Examination** `arXiv 2023`
 
    *Roi Cohen, May Hamri, Mor Geva, Amir Globerson* [[paper]](https://arxiv.org/abs/2305.13281) 2023.05
 
-5. **Do Language Models Know When They're Hallucinating References?** `arXiv 2023`
+6. **Do Language Models Know When They're Hallucinating References?** `arXiv 2023`
 
    *Ayush Agrawal, Lester Mackey, Adam Tauman Kalai* [[paper]](https://arxiv.org/abs/2305.18248) 2023.05
 
-6. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation** `arXiv 2023`
+7. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation** `arXiv 2023`
 
    *Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Wei Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2305.14251) 2023.05
 
-7. **Complex Claim Verification with Evidence Retrieved in the Wild** `arXiv 2023`
+8. **Complex Claim Verification with Evidence Retrieved in the Wild** `arXiv 2023`
 
    *Jifan Chen, Grace Kim, Aniruddh Sriram, Greg Durrett, Eunsol Choi* [[paper]](https://arxiv.org/abs/2305.11859) 2023.05
 
-8. **FACTKG: Fact Verification via Reasoning on Knowledge Graphs** `ACL 2023`
+9. **FACTKG: Fact Verification via Reasoning on Knowledge Graphs** `ACL 2023`
 
    *Jiho Kim, Sungjin Park, Yeonsu Kwon, Yohan Jo, James Thorne, Edward Choi* [[paper]](https://arxiv.org/abs/2305.06590) 2023.05
 
-9. **Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models** `arXiv 2023`
+10. **Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models** `arXiv 2023`
 
    *Miaoran Li, Baolin Peng, Zhu Zhang* [[paper]](https://arxiv.org/abs/2305.14623) 2023.05
 
-10. **Retrieving Supporting Evidence for LLMs Generated Answers** `arXiv 2023`
+11. **Retrieving Supporting Evidence for LLMs Generated Answers** `arXiv 2023`
 
    *Siqing Huo, Negar Arabzadeh, Charles L. A. Clarke* [[paper]](https://arxiv.org/abs/2306.13781) 2023.06
 
