@@ -334,6 +334,14 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli Celikyilmaz, Jason Weston* [[paper]](https://arxiv.org/abs/2309.11495) 2023.09
 
+7. **Boosting In-Context Learning with Factual Knowledge** `arXiv 2023`
+
+   *Jianing Wang, Chengyu Wang, Chuanqi Tan, Jun Huang, Ming Gao* [[paper]](https://arxiv.org/abs/2309.14771) 2023.09
+
+8. **Attention Satisfies: A Constraint-Satisfaction Lens on Factual Errors of Language Models** `arXiv 2023`
+
+   *Mert Yuksekgonul, Varun Chandrasekaran, Erik Jones, Suriya Gunasekar, Ranjita Naik, Hamid Palangi, Ece Kamar, Besmira Nushi* [[paper]](https://arxiv.org/abs/2309.15098) 2023.09
+
 #### Decoding
 
 ##### Contrastive Decoding
@@ -429,10 +437,14 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 1. **End-to-End Multimodal Fact-Checking and Explanation Generation: A Challenging Dataset and Models** `SIGIR 2023`
 
    *Barry Menglong Yao, Aditya Shah, Lichao Sun, Jin-Hee Cho, Lifu Huang* [[paper]](https://arxiv.org/abs/2205.12487) 2022.05
-   
+
 1. **Evaluation and Analysis of Hallucination in Large Vision-Language Models** `arXiv 2023`
 
    *Junyang Wang, Yiyang Zhou, Guohai Xu, Pengcheng Shi, Chenlin Zhao, Haiyang Xu, Qinghao Ye, Ming Yan, Ji Zhang, Jihua Zhu, Jitao Sang, Haoyu Tang* [[paper]](https://arxiv.org/abs/2308.15126) 2023.08
+
+1. **Aligning Large Multimodal Models with Factually Augmented RLHF** `arXiv 2023`
+
+   *Zhiqing Sun, Sheng Shen, Shengcao Cao, Haotian Liu, Chunyuan Li, Yikang Shen, Chuang Gan, Liang-Yan Gui, Yu-Xiong Wang, Yiming Yang, Kurt Keutzer, Trevor Darrell* [[paper]](https://arxiv.org/abs/2309.14525) 2023.09
 
 ## Reasoning
 
