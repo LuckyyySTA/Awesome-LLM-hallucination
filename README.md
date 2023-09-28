@@ -70,6 +70,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
     *Grégoire Delétang, Anian Ruoss, Paul-Ambroise Duquenne, Elliot Catt, Tim Genewein, Christopher Mattern, Jordi Grau-Moya, Li Kevin Wenliang, Matthew Aitchison, Laurent Orseau, Marcus Hutter, Joel Veness* [[paper]](https://arxiv.org/abs/2309.10668) 2023.09
 
+14. **The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"** `arXiv 2023`
+
+    *Lukas Berglund, Meg Tong, Max Kaufmann, Mikita Balesni, Asa Cooper Stickland, Tomasz Korbak, Owain Evans* [[paper]](https://arxiv.org/abs/2309.12288) 2023.09
+
 ## Detection
 
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `arXiv 2023`
@@ -341,6 +345,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 8. **Attention Satisfies: A Constraint-Satisfaction Lens on Factual Errors of Language Models** `arXiv 2023`
 
    *Mert Yuksekgonul, Varun Chandrasekaran, Erik Jones, Suriya Gunasekar, Ranjita Naik, Hamid Palangi, Ece Kamar, Besmira Nushi* [[paper]](https://arxiv.org/abs/2309.15098) 2023.09
+
+9. **RAGAS: Automated Evaluation of Retrieval Augmented Generation** `arXiv 2023`
+
+   *Shahul Es, Jithin James, Luis Espinosa-Anke, Steven Schockaert* [[papper]](https://arxiv.org/abs/2309.15217) 2023.09
 
 #### Decoding
 
