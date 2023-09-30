@@ -162,7 +162,33 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 ## Mitigation
 
-**Multi-Agent**
+#### Parameter Combination
+
+1. **CTRL: A Conditional Transformer Language Model for Controllable Generation** `arXiv 2019`
+
+   *Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher* [[paper]](https://arxiv.org/abs/1909.05858) 2019.09
+
+2. **DExperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts**  `ACL 2021`
+
+   *Alisa Liu, Maarten Sap, Ximing Lu, Swabha Swayamdipta, Chandra Bhagavatula, Noah A. Smith, Yejin Choi* [[paper]](https://arxiv.org/abs/2105.03023) 2021.05
+
+3. **CaPE: Contrastive Parameter Ensembling for Reducing Hallucination in Abstractive Summarization** `ACL 2023 findings`
+
+   *Prafulla Kumar Choubey, Alexander R. Fabbri, Jesse Vig, Chien-Sheng Wu, Wenhao Liu, Nazneen Fatema Rajani* [[paper]](https://arxiv.org/abs/2110.07166) 2021.10
+
+4. **Quark: Controllable Text Generation with Reinforced Unlearning** `NeurIPS 2022`
+
+   *Quark: Controllable Text Generation with Reinforced Unlearning* [[paper]](https://arxiv.org/abs/2205.13636) 2022.05
+
+5. **Editing Models with Task Arithmetic** `ICLR 2023`
+
+   *Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi* [[paper]](https://arxiv.org/abs/2212.04089) 2022.12
+
+6. **Elastic Weight Removal for Faithful and Abstractive Dialogue Generation** `arXiv 2023`
+
+   *Nico Daheim, Nouha Dziri, Mrinmaya Sachan, Iryna Gurevych, Edoardo M. Ponti* [[paper]](https://arxiv.org/abs/2303.17574) 2023.02
+
+#### Multi-Agent
 
 1. **MetaGPT: Meta Programming for Multi-Agent Collaborative Framework** `arXiv 2023`
 
