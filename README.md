@@ -14,7 +14,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 3. **Cognitive Mirage: A Review of Hallucinations in Large Language Models** `arXiv 2023`
 
-   *Hongbin Ye, Tong Liu, Aijia Zhang, Wei Hua, Weiqiang Jia* [[paper]](https://arxiv.org/abs/2309.06794)
+   *Hongbin Ye, Tong Liu, Aijia Zhang, Wei Hua, Weiqiang Jia* [[paper]](https://arxiv.org/abs/2309.06794) 2023.09
+
+4. **Augmenting LLMs with Knowledge: A survey on hallucination prevention** `arXiv 2023`
+
+   *Konstantinos Andriopoulos, Johan Pouwelse* [[paper]](https://arxiv.org/abs/2309.16459) 2023.09
 
 ## Causes
 
@@ -73,6 +77,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 14. **The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"** `arXiv 2023`
 
     *Lukas Berglund, Meg Tong, Max Kaufmann, Mikita Balesni, Asa Cooper Stickland, Tomasz Korbak, Owain Evans* [[paper]](https://arxiv.org/abs/2309.12288) 2023.09
+
+15. **The Confidence-Competence Gap in Large Language Models: A Cognitive Study** `arXiv 2023`
+
+    *Aniket Kumar Singh, Suman Devkota, Bishal Lamichhane, Uttam Dhakal, Chandra Dhakal* [[paper]](https://arxiv.org/abs/2309.16145) 2023.09
 
 ## Detection
 
