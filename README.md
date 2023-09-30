@@ -144,15 +144,19 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
      *I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2307.13528) 2023.07
 
-15. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
+15. **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** `arXiv 2023`
+
+    *Ning Miao, Yee Whye Teh, Tom Rainforth* [[paper]](https://arxiv.org/abs/2308.00436) 2023.08
+
+16. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
 
     *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764) 2023.08
 
-16. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
+17. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
 
     *Anirudh Mittal, Timo Schick, Mikel Artetxe, Jane Dwivedi-Yu* [[paper]](https://arxiv.org/abs/2308.12157) 2023.08
 
-17. **Zero-Resource Hallucination Prevention for Large Language Models** `arXiv 2023`
+18. **Zero-Resource Hallucination Prevention for Large Language Models** `arXiv 2023`
 
     *Junyu Luo, Cao Xiao, Fenglong Ma* [[paper]](https://arxiv.org/abs/2309.02654) 2023.09
 
