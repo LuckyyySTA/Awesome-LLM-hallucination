@@ -82,83 +82,97 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
     *Aniket Kumar Singh, Suman Devkota, Bishal Lamichhane, Uttam Dhakal, Chandra Dhakal* [[paper]](https://arxiv.org/abs/2309.16145) 2023.09
 
-## Detection
+## Hallucination Detection
 
-1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `arXiv 2023`
+#### 1. Factual Inconsistency
 
-   *Potsawee Manakul, Adian Liusie, Mark J. F. Gales* [[paper]](https://arxiv.org/abs/2303.08896) 2023.03
+- **Retrieve External Facts**
 
-2. **The Internal State of an LLM Knows When its Lying** `arXiv 2023`
+  1. **Complex Claim Verification with Evidence Retrieved in the Wild** `arXiv 2023`
+
+     *Jifan Chen, Grace Kim, Aniruddh Sriram, Greg Durrett, Eunsol Choi* [[paper]](https://arxiv.org/abs/2305.11859) 2023.05
+
+  2. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation** `arXiv 2023`
+
+     *Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Wei Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2305.14251) 2023.05
+
+  3. **Retrieving Supporting Evidence for LLMs Generated Answers** `arXiv 2023`
+
+      *Siqing Huo, Negar Arabzadeh, Charles L. A. Clarke* [[paper]](https://arxiv.org/abs/2306.13781) 2023.06
+
+  4. **A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation** `arXiv 2023`
+
+     *Neeraj Varshney, Wenlin Yao, Hongming Zhang, Jianshu Chen, Dong Yu* [[paper]](https://arxiv.org/abs/2307.03987) 2023.07
+
+  5. **FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios** `arXiv 2023`
+
+      *I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2307.13528) 2023.07
+
+  6. **Truth-O-Meter: Collaborating with LLM in Fighting its Hallucinations** `arXiv 2023`
+
+     *Boris A. Galitsky* [[paper]](https://www.preprints.org/manuscript/202307.1723/v1) 2023.07
+
+- **LLM Behavior**
+
+  1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `arXiv 2023`
+
+     *Potsawee Manakul, Adian Liusie, Mark J. F. Gales* [[paper]](https://arxiv.org/abs/2303.08896) 2023.03
+
+  2. **LM vs LM: Detecting Factual Errors via Cross Examination** `arXiv 2023`
+
+     *Roi Cohen, May Hamri, Mor Geva, Amir Globerson* [[paper]](https://arxiv.org/abs/2305.13281) 2023.05
+
+  3. **Do Language Models Know When They're Hallucinating References?** `arXiv 2023`
+
+     *Ayush Agrawal, Lester Mackey, Adam Tauman Kalai* [[paper]](https://arxiv.org/abs/2305.18248) 2023.05
+
+  4. **Zero-Resource Hallucination Prevention for Large Language Models** `arXiv 2023`
+
+     *Junyu Luo, Cao Xiao, Fenglong Ma* [[paper]](https://arxiv.org/abs/2309.02654) 2023.09
+
+#### 2. Context Inconsistency
+
+#### 3. Logical Inconsistency
+
+1. **The Internal State of an LLM Knows When its Lying** `arXiv 2023`
 
    *Amos Azaria, Tom Mitchell* [[paper]](https://arxiv.org/abs/2304.13734) 2023.04
 
-3. **Zero-shot Faithful Factual Error Correction** `ACL 20023`
+2. **Zero-shot Faithful Factual Error Correction** `ACL 20023`
 
    *Kung-Hsiang Huang, Hou Pong Chan, Heng Ji* [[paper]](https://arxiv.org/abs/2305.07982) 2023.05
 
-4. **Fact-Checking Complex Claims with Program-Guided Reasoning** `ACL 2023`
+3. **Fact-Checking Complex Claims with Program-Guided Reasoning** `ACL 2023`
 
    *Liangming Pan, Xiaobao Wu, Xinyuan Lu, Anh Tuan Luu, William Yang Wang, Min-Yen Kan, Preslav Nakov* [[paper]](https://arxiv.org/abs/2305.12744) 2023.05
 
-5. **LM vs LM: Detecting Factual Errors via Cross Examination** `arXiv 2023`
-
-   *Roi Cohen, May Hamri, Mor Geva, Amir Globerson* [[paper]](https://arxiv.org/abs/2305.13281) 2023.05
-
-6. **Do Language Models Know When They're Hallucinating References?** `arXiv 2023`
-
-   *Ayush Agrawal, Lester Mackey, Adam Tauman Kalai* [[paper]](https://arxiv.org/abs/2305.18248) 2023.05
-
-7. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation** `arXiv 2023`
-
-   *Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Wei Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2305.14251) 2023.05
-
-8. **Complex Claim Verification with Evidence Retrieved in the Wild** `arXiv 2023`
-
-   *Jifan Chen, Grace Kim, Aniruddh Sriram, Greg Durrett, Eunsol Choi* [[paper]](https://arxiv.org/abs/2305.11859) 2023.05
-
-9. **FACTKG: Fact Verification via Reasoning on Knowledge Graphs** `ACL 2023`
+4. **FACTKG: Fact Verification via Reasoning on Knowledge Graphs** `ACL 2023`
 
    *Jiho Kim, Sungjin Park, Yeonsu Kwon, Yohan Jo, James Thorne, Edward Choi* [[paper]](https://arxiv.org/abs/2305.06590) 2023.05
 
-10. **Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models** `arXiv 2023`
+5. **Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models** `arXiv 2023`
 
    *Miaoran Li, Baolin Peng, Zhu Zhang* [[paper]](https://arxiv.org/abs/2305.14623) 2023.05
-
-11. **Retrieving Supporting Evidence for LLMs Generated Answers** `arXiv 2023`
-
-   *Siqing Huo, Negar Arabzadeh, Charles L. A. Clarke* [[paper]](https://arxiv.org/abs/2306.13781) 2023.06
 
 11. **Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs** `arXiv 2023`
 
     *Miao Xiong, Zhiyuan Hu, Xinyang Lu, Yifei Li, Jie Fu, Junxian He, Bryan Hooi* [[paper]](https://arxiv.org/abs/2306.13063) 2023.06
 
-12. **A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation** `arXiv 2023`
-
-    *Neeraj Varshney, Wenlin Yao, Hongming Zhang, Jianshu Chen, Dong Yu* [[paper]](https://arxiv.org/abs/2307.03987) 2023.07
-
-13. **Generating Benchmarks for Factuality Evaluation of Language Models** `arXiv 2023`
+12. **Generating Benchmarks for Factuality Evaluation of Language Models** `arXiv 2023`
 
     *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.07
 
-14. **FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios** `arXiv 2023`
-
-     *I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2307.13528) 2023.07
-
-15. **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** `arXiv 2023`
+13. **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** `arXiv 2023`
 
     *Ning Miao, Yee Whye Teh, Tom Rainforth* [[paper]](https://arxiv.org/abs/2308.00436) 2023.08
 
-16. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
+14. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
 
     *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764) 2023.08
 
-17. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
+15. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
 
     *Anirudh Mittal, Timo Schick, Mikel Artetxe, Jane Dwivedi-Yu* [[paper]](https://arxiv.org/abs/2308.12157) 2023.08
-
-18. **Zero-Resource Hallucination Prevention for Large Language Models** `arXiv 2023`
-
-    *Junyu Luo, Cao Xiao, Fenglong Ma* [[paper]](https://arxiv.org/abs/2309.02654) 2023.09
 
 ## Mitigation
 
