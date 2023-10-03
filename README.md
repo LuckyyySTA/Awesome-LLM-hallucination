@@ -22,65 +22,105 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 ## Causes
 
-1. **How Pre-trained Language Models Capture Factual Knowledge? A Causal-Inspired Analysis** `ACL 2022 findings`
+#### 1. Data Bias
 
-   *Shaobo Li, Xiaoguang Li, Lifeng Shang, Zhenhua Dong, Chengjie Sun, Bingquan Liu, Zhenzhou Ji, Xin Jiang, Qun Liu* [[paper]](https://arxiv.org/abs/2203.16747)
+- **Heuristics Data Collection**
 
-2. **On Exposure Bias, Hallucination and Domain Shift in Neural Machine Translation** `ACL 2020`
+  1. **Deduplicating Training Data Makes Language Models Better** `ACL 2022`
 
-   *Chaojun Wang, Rico Sennrich* [[paper]](https://aclanthology.org/2020.acl-main.326/) 2020.05
+     *Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini* [[paper]](https://aclanthology.org/2022.acl-long.577/) 2021.07
 
-3. **Deduplicating Training Data Makes Language Models Better** `ACL 2022`
+#### 2. Knowledge Gap
 
-   *Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini* [[paper]](https://aclanthology.org/2022.acl-long.577/) 2021.07
+- **Knowledge Memorization**
 
-4. **Large Language Models Can Be Easily Distracted by Irrelevant Context** `ICML 2023`
+  1. **How Pre-trained Language Models Capture Factual Knowledge? A Causal-Inspired Analysis** `ACL 2022 findings`
 
-   *Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed Chi, Nathanael Schärli, Denny Zhou* [[paper]](https://proceedings.mlr.press/v202/shi23a/shi23a.pdf) 2023.01
+     *Shaobo Li, Xiaoguang Li, Lifeng Shang, Zhenhua Dong, Chengjie Sun, Bingquan Liu, Zhenzhou Ji, Xin Jiang, Qun Liu* [[paper]](https://arxiv.org/abs/2203.16747)
 
-5. **Revisiting the Architectures like Pointer Networks to Efficiently Improve the Next Word Distribution, Summarization Factuality, and Beyond** `ACL 2023 findings`
+  2. **Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes** `arXiv 2023`
 
-   *Haw-Shiuan Chang, Zonghai Yao, Alolika Gon, Hong Yu, Andrew McCallum* [[paper]](https://arxiv.org/abs/2305.12289) 2023.03
+     *Jian Xie, Kai Zhang, Jiangjie Chen, Renze Lou, Yu Su* [[paper]](https://arxiv.org/abs/2305.13300) 2023.05
 
-6. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
+  3. **"Merge Conflicts!" Exploring the Impacts of External Distractors to Parametric Knowledge Graphs** `arXiv 2023`
 
-   *Shen Zheng, Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2304.10513) 2023.04
+     *Cheng Qian, Xinran Zhao, Sherry Tongshuang Wu* [[paper]](https://arxiv.org/abs/2309.08594) 2023.09
 
-7. **Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes** `arXiv 2023`
+  4. **Resolving Knowledge Conflicts in Large Language Models** `arXiv 2023`
 
-   *Jian Xie, Kai Zhang, Jiangjie Chen, Renze Lou, Yu Su* [[paper]](https://arxiv.org/abs/2305.13300) 2023.05
+     *Yike Wang, Shangbin Feng, Heng Wang, Weijia Shi, Vidhisha Balachandran, Tianxing He, Yulia Tsvetkov* [[paper]](https://arxiv.org/abs/2310.00935) 2023.10
 
-8. **How Language Model Hallucinations Can Snowball** `arXiv 2023`
+- **Knowledge Recall**
 
-   *Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith* [[paper]](https://arxiv.org/abs/2305.13534) 2023.05
+  1. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
 
-9. **Instruction Position Matters in Sequence Generation with Large Language Models** `arXiv 2023`
+     *Shen Zheng, Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2304.10513) 2023.04
 
-   *Yijin Liu, Xianfeng Zeng, Fandong Meng, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12097) 2023.08
+#### 3. Sub-optimal Modeling
 
-10. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
+- **Auto-Regressive Modeling**
 
-    *Yijie Chen, Yijin Liu, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12674) 2023.08
+  1. **Language Modeling Is Compression** `arXiv 2023`
 
-11. **Quantifying and Attributing the Hallucination of Large Language Models via Association Analysis** `arXiv 2023`
+     *Grégoire Delétang, Anian Ruoss, Paul-Ambroise Duquenne, Elliot Catt, Tim Genewein, Christopher Mattern, Jordi Grau-Moya, Li Kevin Wenliang, Matthew Aitchison, Laurent Orseau, Marcus Hutter, Joel Veness* [[paper]](https://arxiv.org/abs/2309.10668) 2023.09
 
-    *Li Du, Yequan Wang, Xingrun Xing, Yiqun Ya, Xiang Li, Xin Jiang, Xuezhi Fang* [[paper]](https://arxiv.org/abs/2309.05217)
+  2. **The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"** `arXiv 2023`
 
-12. **"Merge Conflicts!" Exploring the Impacts of External Distractors to Parametric Knowledge Graphs** `arXiv 2023`
+     *Lukas Berglund, Meg Tong, Max Kaufmann, Mikita Balesni, Asa Cooper Stickland, Tomasz Korbak, Owain Evans* [[paper]](https://arxiv.org/abs/2309.12288) 2023.09
 
-    *Cheng Qian, Xinran Zhao, Sherry Tongshuang Wu* [[paper]](https://arxiv.org/abs/2309.08594) 2023.09
+- **Softmax-Bottleneck**
 
-13. **Language Modeling Is Compression** `arXiv 2023`
+  1. **Revisiting the Architectures like Pointer Networks to Efficiently Improve the Next Word Distribution, Summarization Factuality, and Beyond** `ACL 2023 findings`
 
-    *Grégoire Delétang, Anian Ruoss, Paul-Ambroise Duquenne, Elliot Catt, Tim Genewein, Christopher Mattern, Jordi Grau-Moya, Li Kevin Wenliang, Matthew Aitchison, Laurent Orseau, Marcus Hutter, Joel Veness* [[paper]](https://arxiv.org/abs/2309.10668) 2023.09
+     *Haw-Shiuan Chang, Zonghai Yao, Alolika Gon, Hong Yu, Andrew McCallum* [[paper]](https://arxiv.org/abs/2305.12289) 2023.03
 
-14. **The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"** `arXiv 2023`
+- **Exposure Bias**
 
-    *Lukas Berglund, Meg Tong, Max Kaufmann, Mikita Balesni, Asa Cooper Stickland, Tomasz Korbak, Owain Evans* [[paper]](https://arxiv.org/abs/2309.12288) 2023.09
+  1. **On Exposure Bias, Hallucination and Domain Shift in Neural Machine Translation** `ACL 2020`
 
-15. **The Confidence-Competence Gap in Large Language Models: A Cognitive Study** `arXiv 2023`
+     *Chaojun Wang, Rico Sennrich* [[paper]](https://aclanthology.org/2020.acl-main.326/) 2020.05
 
-    *Aniket Kumar Singh, Suman Devkota, Bishal Lamichhane, Uttam Dhakal, Chandra Dhakal* [[paper]](https://arxiv.org/abs/2309.16145) 2023.09
+  2. **How Language Model Hallucinations Can Snowball** `arXiv 2023`
+
+     *Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith* [[paper]](https://arxiv.org/abs/2305.13534) 2023.05
+
+#### 4. Sub-optimal Alignment
+
+- **Instruction Tuning**
+
+  1. **Instruction Position Matters in Sequence Generation with Large Language Models** `arXiv 2023`
+
+     *Yijin Liu, Xianfeng Zeng, Fandong Meng, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12097) 2023.08
+
+  2. **Improving Translation Faithfulness of Large Language Models via Augmenting Instructions** `arXiv 2023`
+
+     *Yijie Chen, Yijin Liu, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou* [[paper]](https://arxiv.org/abs/2308.12674) 2023.08
+
+  3. **The Confidence-Competence Gap in Large Language Models: A Cognitive Study** `arXiv 2023`
+
+     *Aniket Kumar Singh, Suman Devkota, Bishal Lamichhane, Uttam Dhakal, Chandra Dhakal* [[paper]](https://arxiv.org/abs/2309.16145) 2023.09
+
+  4. **Large Language Models Can Be Easily Distracted by Irrelevant Context** `ICML 2023`
+
+     *Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed Chi, Nathanael Schärli, Denny Zhou* [[paper]](https://proceedings.mlr.press/v202/shi23a/shi23a.pdf) 2023.01
+
+  5. **From Language Modeling to Instruction Following: Understanding the Behavior Shift in LLMs after Instruction Tuning** `arXiv 2023`
+
+     *Xuansheng Wu, Wenlin Yao, Jianshu Chen, Xiaoman Pan, Xiaoyang Wang, Ninghao Liu, Dong Yu* [[paper]](https://arxiv.org/abs/2310.00492) 2023.10
+
+#### 5. Imperfect Decoding
+
+- **Sampling Randomness** 
+
+  1. **Factuality Enhanced Language Models for Open-Ended Text Generation** `NeurIPS 20222`
+
+     *Nayeon Lee, Wei Ping, Peng Xu, Mostofa Patwary, Pascale Fung, Mohammad Shoeybi, Bryan Catanzaro* [[paper]](https://arxiv.org/abs/2206.04624) 2022.06
+
+#### 6. Analysis
+
+1. **Quantifying and Attributing the Hallucination of Large Language Models via Association Analysis** `arXiv 2023`
+
+   *Li Du, Yequan Wang, Xingrun Xing, Yiqun Ya, Xiang Li, Xin Jiang, Xuezhi Fang* [[paper]](https://arxiv.org/abs/2309.05217)
 
 ## Hallucination Detection
 
@@ -214,6 +254,18 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Chenrui Zhang, Lin Liu, Jinpeng Wang, Chuyuan Wang, Xiao Sun, Hongyu Wang, Mingchen Cai* [[paper]](https://arxiv.org/abs/2308.12033) 2023.08
 
+#### Sub-optimal Modeling
+
+- **Robust**
+
+  1. **Improved Natural Language Generation via Loss Truncation** `ACL 2020`
+
+     *Daniel Kang, Tatsunori Hashimoto* [[paper]](https://arxiv.org/abs/2004.14589) 2020.04
+
+  2. **Error Norm Truncation: Robust Training in the Presence of Data Noise for Text Generation Models** `arXiv 2023`
+
+     *Tianjian Li, Haoran Xu, Philipp Koehn, Daniel Khashabi, Kenton Murray* [[paper]](https://arxiv.org/abs/2310.00840) 2023.10
+
 #### Retrieval-Augmented LLM
 
 1. **Large Language Models with Controllable Working Memory** `ACL 2023 findings`
@@ -304,141 +356,154 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
     *Siqing Huo, Negar Arabzadeh, Charles L. A. Clarke* [[paper]](https://arxiv.org/abs/2309.11392) 2023.09
 
+23. **RA-DIT: Retrieval-Augmented Dual Instruction Tuning** `arXiv 2023`
+
+    *Xi Victoria Lin, Xilun Chen, Mingda Chen, Weijia Shi, Maria Lomeli, Rich James, Pedro Rodriguez, Jacob Kahn, Gergely Szilvasy, Mike Lewis, Luke Zettlemoyer, Scott Yih* [[paper]](https://arxiv.org/abs/2310.01352) 2023.10
+
+24. **Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning** `arXiv 2023`
+
+    *Linhao Luo, Yuan-Fang Li, Gholamreza Haffari, Shirui Pan* [[paper]](https://arxiv.org/abs/2310.01061) 2023.10
+
 #### Attributable LLM
 
-##### Attribution Evaluation
+- **Attribution Evaluation**
 
-1. **Measuring Attribution in Natural Language Generation Models** `Computational Linguistics 2023`
+  1. **Measuring Attribution in Natural Language Generation Models** `Computational Linguistics 2023`
 
-   *Hannah Rashkin, Vitaly Nikolaev, Matthew Lamm, Lora Aroyo, Michael Collins, Dipanjan Das, Slav Petrov, Gaurav Singh Tomar, Iulia Turc, David Reitter* [[paper]](https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00486/116438) 2021.12
+     *Hannah Rashkin, Vitaly Nikolaev, Matthew Lamm, Lora Aroyo, Michael Collins, Dipanjan Das, Slav Petrov, Gaurav Singh Tomar, Iulia Turc, David Reitter* [[paper]](https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00486/116438) 2021.12
 
-2. **Attributed Question Answering: Evaluation and Modeling for Attributed Large Language Models** `arXiv 2022`
+  2. **Attributed Question Answering: Evaluation and Modeling for Attributed Large Language Models** `arXiv 2022`
 
-   *Bernd Bohnet, Vinh Q. Tran, Pat Verga, Roee Aharoni, Daniel Andor, Livio Baldini Soares, Massimiliano Ciaramita, Jacob Eisenstein, Kuzman Ganchev, Jonathan Herzig, Kai Hui, Tom Kwiatkowski, Ji Ma, Jianmo Ni, Lierni Sestorain Saralegui, Tal Schuster, William W. Cohen, Michael Collins, Dipanjan Das, Donald Metzler, Slav Petrov, Kellie Webster* [[paper]](https://arxiv.org/abs/2212.08037) 2022.12
+     *Bernd Bohnet, Vinh Q. Tran, Pat Verga, Roee Aharoni, Daniel Andor, Livio Baldini Soares, Massimiliano Ciaramita, Jacob Eisenstein, Kuzman Ganchev, Jonathan Herzig, Kai Hui, Tom Kwiatkowski, Ji Ma, Jianmo Ni, Lierni Sestorain Saralegui, Tal Schuster, William W. Cohen, Michael Collins, Dipanjan Das, Donald Metzler, Slav Petrov, Kellie Webster* [[paper]](https://arxiv.org/abs/2212.08037) 2022.12
 
-3. **Evaluating Verifiability in Generative Search Engines** `arXiv 2023`
+  3. **Evaluating Verifiability in Generative Search Engines** `arXiv 2023`
 
-   *Nelson F. Liu, Tianyi Zhang, Percy Liang* [[paper]](https://arxiv.org/abs/2304.09848) 2023.04
+     *Nelson F. Liu, Tianyi Zhang, Percy Liang* [[paper]](https://arxiv.org/abs/2304.09848) 2023.04
 
-4. **Automatic Evaluation of Attribution by Large Language Models** `arXiv 2023`
+  4. **Automatic Evaluation of Attribution by Large Language Models** `arXiv 2023`
 
-   *Xiang Yue, Boshi Wang, Kai Zhang, Ziru Chen, Yu Su, Huan Sun* [[paper]](https://arxiv.org/abs/2305.06311) 2023.05
+     *Xiang Yue, Boshi Wang, Kai Zhang, Ziru Chen, Yu Su, Huan Sun* [[paper]](https://arxiv.org/abs/2305.06311) 2023.05
 
-##### Attributed LLM
+- **Attributed LLM**
 
-1. **WebGPT: Browser-assisted question-answering with human feedback** `arXiv 2021`
+  1. **WebGPT: Browser-assisted question-answering with human feedback** `arXiv 2021`
 
-   *Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, John Schulman* [[paper]](https://arxiv.org/abs/2112.09332) 2021.12
+     *Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, John Schulman* [[paper]](https://arxiv.org/abs/2112.09332) 2021.12
 
-2. **Teaching language models to support answers with verified quotes** `arXiv 2021`
+  2. **Teaching language models to support answers with verified quotes** `arXiv 2021`
 
-   *Jacob Menick, Maja Trebacz, Vladimir Mikulik, John Aslanides, Francis Song, Martin Chadwick, Mia Glaese, Susannah Young, Lucy Campbell-Gillingham, Geoffrey Irving, Nat McAleese* [[paper]](https://arxiv.org/abs/2203.11147) 2022.03
+     *Jacob Menick, Maja Trebacz, Vladimir Mikulik, John Aslanides, Francis Song, Martin Chadwick, Mia Glaese, Susannah Young, Lucy Campbell-Gillingham, Geoffrey Irving, Nat McAleese* [[paper]](https://arxiv.org/abs/2203.11147) 2022.03
 
-3. **RARR: Researching and Revising What Language Models Say, Using Language Models** `ACL 2023`
+  3. **RARR: Researching and Revising What Language Models Say, Using Language Models** `ACL 2023`
 
-   *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
+     *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
 
-4. **PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions** `arXiv 2023`
+  4. **PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions** `arXiv 2023`
 
-   *Anthony Chen, Panupong Pasupat, Sameer Singh, Hongrae Lee, Kelvin Guu* [[paper]](https://arxiv.org/abs/2305.14908) 2023.05
+     *Anthony Chen, Panupong Pasupat, Sameer Singh, Hongrae Lee, Kelvin Guu* [[paper]](https://arxiv.org/abs/2305.14908) 2023.05
 
-5. **Large Language Models are Built-in Autoregressive Search Engines** `ACL 2023 findings`
+  5. **Large Language Models are Built-in Autoregressive Search Engines** `ACL 2023 findings`
 
-   *Noah Ziems, Wenhao Yu, Zhihan Zhang, Meng Jiang* [[paper]](https://aclanthology.org/2023.findings-acl.167.pdf)
+     *Noah Ziems, Wenhao Yu, Zhihan Zhang, Meng Jiang* [[paper]](https://aclanthology.org/2023.findings-acl.167.pdf)
 
-##### Attribution Benchmark
 
-1. **WebBrain: Learning to Generate Factually Correct Articles for Queries by Grounding on Large Web Corpus** `arXiv 2023`
+- **Attribution Benchmark**
 
-   *Hongjing Qian, Yutao Zhu, Zhicheng Dou, Haoqi Gu, Xinyu Zhang, Zheng Liu, Ruofei Lai, Zhao Cao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2304.04358) 2023.04
+  1. **WebBrain: Learning to Generate Factually Correct Articles for Queries by Grounding on Large Web Corpus** `arXiv 2023`
 
-2. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023`
+     *Hongjing Qian, Yutao Zhu, Zhicheng Dou, Haoqi Gu, Xinyu Zhang, Zheng Liu, Ruofei Lai, Zhao Cao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2304.04358) 2023.04
 
-   *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
+  1. **Enabling Large Language Models to Generate Text with Citations** `arXiv 2023`
 
-3. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
+     *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.05
 
-   *Ehsan Kamalloo, Aref Jafari, Xinyu Zhang, Nandan Thakur, Jimmy Lin* [[paper]](https://arxiv.org/abs/2307.16883) 2023.07
+  1. **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** `arXiv 2023`
 
-4. **ExpertQA: Expert-Curated Questions and Attributed Answers** `arXiv 2023`
+     *Ehsan Kamalloo, Aref Jafari, Xinyu Zhang, Nandan Thakur, Jimmy Lin* [[paper]](https://arxiv.org/abs/2307.16883) 2023.07
 
-   *Chaitanya Malaviya, Subin Lee, Sihao Chen, Elizabeth Sieber, Mark Yatskar, Dan Roth*  [[paper]](https://arxiv.org/abs/2309.07852) 2023.09
+  1. **ExpertQA: Expert-Curated Questions and Attributed Answers** `arXiv 2023`
 
-##### Others
+     *Chaitanya Malaviya, Subin Lee, Sihao Chen, Elizabeth Sieber, Mark Yatskar, Dan Roth*  [[paper]](https://arxiv.org/abs/2309.07852) 2023.09
 
-1. **Characterizing Attribution and Fluency Tradeoffs for Retrieval-Augmented Large Language Models** `arXiv 2023`
 
-   *Renat Aksitov, Chung-Ching Chang, David Reitter, Siamak Shakeri, Yunhsuan Sung* [[paper]](https://arxiv.org/abs/2302.05578) 2023.02
+- **Others**
 
-2. **"According to ..." Prompting Language Models Improves Quoting from Pre-Training Data** `arXiv 2023`
+  1. **Characterizing Attribution and Fluency Tradeoffs for Retrieval-Augmented Large Language Models** `arXiv 2023`
 
-   *Orion Weller, Marc Marone, Nathaniel Weir, Dawn Lawrie, Daniel Khashabi, Benjamin Van Durme* [[paper]](https://arxiv.org/abs/2305.13252) 2023.05
+     *Renat Aksitov, Chung-Ching Chang, David Reitter, Siamak Shakeri, Yunhsuan Sung* [[paper]](https://arxiv.org/abs/2302.05578) 2023.02
 
-3. **RefGPT: Reference -> Truthful & Customized Dialogues Generation by GPTs and for GPTs** `arXiv 2023`
+  2. **"According to ..." Prompting Language Models Improves Quoting from Pre-Training Data** `arXiv 2023`
 
-   *Dongjie Yang, Ruifeng Yuan, YuanTao Fan, YiFei Yang, Zili Wang, Shusen Wang, Hai Zhao* [[paper]](https://arxiv.org/abs/2305.14994) 2023.05
+     *Orion Weller, Marc Marone, Nathaniel Weir, Dawn Lawrie, Daniel Khashabi, Benjamin Van Durme* [[paper]](https://arxiv.org/abs/2305.13252) 2023.05
 
-4. **Citation: A Key to Building Responsible and Accountable Large Language Models** `arXiv 2023`
+  3. **RefGPT: Reference -> Truthful & Customized Dialogues Generation by GPTs and for GPTs** `arXiv 2023`
 
-    *Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2307.02185) 2023.07
+     *Dongjie Yang, Ruifeng Yuan, YuanTao Fan, YiFei Yang, Zili Wang, Shusen Wang, Hai Zhao* [[paper]](https://arxiv.org/abs/2305.14994) 2023.05
 
-5. **When Large Language Models Meet Citation: A Survey** `arXiv 2023`
+  4. **Citation: A Key to Building Responsible and Accountable Large Language Models** `arXiv 2023`
 
-   *Yang Zhang, Yufei Wang, Kai Wang, Quan Z. Sheng, Lina Yao, Adnan Mahmood, Wei Emma Zhang, Rongying Zhao* [[paper]](https://arxiv.org/abs/2309.09727) 2023.09
+     *Jie Huang, Kevin Chen-Chuan Chang* [[paper]](https://arxiv.org/abs/2307.02185) 2023.07
 
-6. **Chain-of-Verification Reduces Hallucination in Large Language Models** `arXiv 2023`
+  5. **When Large Language Models Meet Citation: A Survey** `arXiv 2023`
 
-   *Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli Celikyilmaz, Jason Weston* [[paper]](https://arxiv.org/abs/2309.11495) 2023.09
+     *Yang Zhang, Yufei Wang, Kai Wang, Quan Z. Sheng, Lina Yao, Adnan Mahmood, Wei Emma Zhang, Rongying Zhao* [[paper]](https://arxiv.org/abs/2309.09727) 2023.09
 
-7. **Boosting In-Context Learning with Factual Knowledge** `arXiv 2023`
+  6. **Chain-of-Verification Reduces Hallucination in Large Language Models** `arXiv 2023`
 
-   *Jianing Wang, Chengyu Wang, Chuanqi Tan, Jun Huang, Ming Gao* [[paper]](https://arxiv.org/abs/2309.14771) 2023.09
+     *Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli Celikyilmaz, Jason Weston* [[paper]](https://arxiv.org/abs/2309.11495) 2023.09
 
-8. **Attention Satisfies: A Constraint-Satisfaction Lens on Factual Errors of Language Models** `arXiv 2023`
+  7. **Boosting In-Context Learning with Factual Knowledge** `arXiv 2023`
 
-   *Mert Yuksekgonul, Varun Chandrasekaran, Erik Jones, Suriya Gunasekar, Ranjita Naik, Hamid Palangi, Ece Kamar, Besmira Nushi* [[paper]](https://arxiv.org/abs/2309.15098) 2023.09
+     *Jianing Wang, Chengyu Wang, Chuanqi Tan, Jun Huang, Ming Gao* [[paper]](https://arxiv.org/abs/2309.14771) 2023.09
 
-9. **RAGAS: Automated Evaluation of Retrieval Augmented Generation** `arXiv 2023`
+  8. **Attention Satisfies: A Constraint-Satisfaction Lens on Factual Errors of Language Models** `arXiv 2023`
 
-   *Shahul Es, Jithin James, Luis Espinosa-Anke, Steven Schockaert* [[papper]](https://arxiv.org/abs/2309.15217) 2023.09
+     *Mert Yuksekgonul, Varun Chandrasekaran, Erik Jones, Suriya Gunasekar, Ranjita Naik, Hamid Palangi, Ece Kamar, Besmira Nushi* [[paper]](https://arxiv.org/abs/2309.15098) 2023.09
+
+  9. **RAGAS: Automated Evaluation of Retrieval Augmented Generation** `arXiv 2023`
+
+     *Shahul Es, Jithin James, Luis Espinosa-Anke, Steven Schockaert* [[papper]](https://arxiv.org/abs/2309.15217) 2023.09
+
 
 #### Decoding
 
-##### Contrastive Decoding
+- **Contrastive Decoding**
 
-1. **Sticking to the Facts: Confident Decoding for Faithful Data-to-Text Generation** `arXiv 2019`
+  1. **Sticking to the Facts: Confident Decoding for Faithful Data-to-Text Generation** `arXiv 2019`
 
-   *Ran Tian, Shashi Narayan, Thibault Sellam, Ankur P. Parikh* [[paper]](https://arxiv.org/abs/1910.08684)
+     *Ran Tian, Shashi Narayan, Thibault Sellam, Ankur P. Parikh* [[paper]](https://arxiv.org/abs/1910.08684)
 
-2. **Mutual Information Alleviates Hallucinations in Abstractive Summarization** `EMNLP 2022`
+  1. **Mutual Information Alleviates Hallucinations in Abstractive Summarization** `EMNLP 2022`
 
-   *Liam van der Poel, Ryan Cotterell, Clara Meister* [[paper]](https://arxiv.org/abs/2210.13210) 2022.10
+     *Liam van der Poel, Ryan Cotterell, Clara Meister* [[paper]](https://arxiv.org/abs/2210.13210) 2022.10
 
-3. **Contrastive Decoding: Open-ended Text Generation as Optimization** `ACL 2023`
+  1. **Contrastive Decoding: Open-ended Text Generation as Optimization** `ACL 2023`
 
-   *Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, Mike Lewis* [[paper]](https://arxiv.org/abs/2210.15097)
+     *Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, Mike Lewis* [[paper]](https://arxiv.org/abs/2210.15097)
 
-4. **Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** `arXiv 2023`
+  1. **Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** `arXiv 2023`
 
-   *Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih* [[paper]](https://arxiv.org/abs/2305.14739) 2023.05
+     *Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih* [[paper]](https://arxiv.org/abs/2305.14739) 2023.05
 
-5. **Mitigating Hallucinations and Off-target Machine Translation with Source-Contrastive and Language-Contrastive Decoding** `arXiv 2023`
+  1. **Mitigating Hallucinations and Off-target Machine Translation with Source-Contrastive and Language-Contrastive Decoding** `arXiv 2023`
 
-   *Rico Sennrich, Jannis Vamvas, Alireza Mohammadshahi* [[paper]](https://arxiv.org/abs/2309.07098) 2023.09
+     *Rico Sennrich, Jannis Vamvas, Alireza Mohammadshahi* [[paper]](https://arxiv.org/abs/2309.07098) 2023.09
 
-6. **DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models** `arXiv 2023`
+  1. **DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models** `arXiv 2023`
 
-   *Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, Pengcheng He* [[paper]](https://arxiv.org/abs/2309.03883) 2023.09
+     *Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, Pengcheng He* [[paper]](https://arxiv.org/abs/2309.03883) 2023.09
 
-##### Dynamic Temperature Sampling
 
-1. **KL-Divergence Guided Temperature Sampling** `arXiv 2023`
+- **Dynamic Temperature Sampling**
 
-   *Chung-Ching Chang, David Reitter, Renat Aksitov, Yun-Hsuan Sung* [[paper]](https://arxiv.org/abs/2306.01286) 2023.06
+  1. **KL-Divergence Guided Temperature Sampling** `arXiv 2023`
 
-2. **Improving Code Generation by Dynamic Temperature Sampling** `arXiv 2023`
+     *Chung-Ching Chang, David Reitter, Renat Aksitov, Yun-Hsuan Sung* [[paper]](https://arxiv.org/abs/2306.01286) 2023.06
 
-   *Yuqi Zhu, Jia Allen Li, Ge Li, YunFei Zhao, Jia Li, Zhi Jin, Hong Mei* [[paper]](https://arxiv.org/abs/2309.02772) 2023.09
+  1. **Improving Code Generation by Dynamic Temperature Sampling** `arXiv 2023`
+
+     *Yuqi Zhu, Jia Allen Li, Ge Li, YunFei Zhao, Jia Li, Zhi Jin, Hong Mei* [[paper]](https://arxiv.org/abs/2309.02772) 2023.09
+
 
 ##### Others
 
@@ -474,6 +539,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Kai Sun, Yifan Ethan Xu, Hanwen Zha, Yue Liu, Xin Luna Dong* [[paper]](https://arxiv.org/abs/2308.10168) 2023.08
 
+6. **AutoHall: Automated Hallucination Dataset Generation for Large Language Models** `arXiv 2023`
+
+   *Zouying Cao, Yifei Yang, Hai Zhao* [[paper]](https://arxiv.org/abs/2310.00259) 2023.10
+
 ## Benchmark
 
 1. **TruthfulQA: Measuring How Models Mimic Human Falsehoods** `ACL 2022`
@@ -490,7 +559,7 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 4. **FELM: Benchmarking Factuality Evaluation of Large Language Models** `NeurIPS 2023`
 
-   *Shiqi Chen, Yiran Zhao, Jinghan Zhang, I-Chun Chern, Siyang Gao, Pengfei Liu, Junxian He* 2023.09
+   *Shiqi Chen, Yiran Zhao, Jinghan Zhang, I-Chun Chern, Siyang Gao, Pengfei Liu, Junxian He* [[paper]](https://arxiv.org/pdf/2310.00741.pdf) 2023.09
 
 ## MultiModal
 
