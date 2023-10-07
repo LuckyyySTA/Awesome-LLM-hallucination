@@ -214,6 +214,36 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
     *Anirudh Mittal, Timo Schick, Mikel Artetxe, Jane Dwivedi-Yu* [[paper]](https://arxiv.org/abs/2308.12157) 2023.08
 
+## Hallucination Benchmark
+
+1. **TruthfulQA: Measuring How Models Mimic Human Falsehoods** `ACL 2022`
+
+   *Stephanie Lin, Jacob Hilton, Owain Evans* [[paper]](https://arxiv.org/abs/2109.07958) 2021.09
+
+2. **HalOmi: A Manually Annotated Benchmark for Multilingual Hallucination and Omission Detection in Machine Translation** `arXiv 2023`
+
+   *David Dale, Elena Voita, Janice Lam, Prangthip Hansanti, Christophe Ropers, Elahe Kalbassi, Cynthia Gao, Loïc Barrault, Marta R. Costa-jussà* [[paper]](https://arxiv.org/abs/2305.11746) 2023.05
+
+3. **HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models** `arXiv 2023`
+
+   *Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2305.11747) 2023.05
+
+4. **Med-HALT: Medical Domain Hallucination Test for Large Language Models** `arXiv 2023`
+
+   *Logesh Kumar Umapathi, Ankit Pal, Malaikannan Sankarasubbu* [[paper]](https://arxiv.org/abs/2307.15343) 2023.07
+
+5. **FELM: Benchmarking Factuality Evaluation of Large Language Models** `NeurIPS 2023`
+
+   *Shiqi Chen, Yiran Zhao, Jinghan Zhang, I-Chun Chern, Siyang Gao, Pengfei Liu, Junxian He* [[paper]](https://arxiv.org/pdf/2310.00741.pdf) 2023.09
+
+6. **BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities of Large Language Models** `arXiv 2023`
+
+   *Zican Dong, Tianyi Tang, Junyi Li, Wayne Xin Zhao, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2309.13345) 2023.09
+
+7. **Evaluating Hallucinations in Chinese Large Language Models** `arXiv 2023`
+
+   *Qinyuan Cheng, Tianxiang Sun, Wenwei Zhang, Siyin Wang, Xiangyang Liu, Mozhi Zhang, Junliang He, Mianqiu Huang, Zhangyue Yin, Kai Chen, Xipeng Qiu* [[paper]](https://arxiv.org/abs/2310.03368) 2023.10
+
 ## Mitigation
 
 #### Parameter Combination
@@ -542,24 +572,6 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 6. **AutoHall: Automated Hallucination Dataset Generation for Large Language Models** `arXiv 2023`
 
    *Zouying Cao, Yifei Yang, Hai Zhao* [[paper]](https://arxiv.org/abs/2310.00259) 2023.10
-
-## Benchmark
-
-1. **TruthfulQA: Measuring How Models Mimic Human Falsehoods** `ACL 2022`
-
-   *Stephanie Lin, Jacob Hilton, Owain Evans* [[paper]](https://arxiv.org/abs/2109.07958) 2021.09
-
-2. **HalOmi: A Manually Annotated Benchmark for Multilingual Hallucination and Omission Detection in Machine Translation** `arXiv 2023`
-
-   *David Dale, Elena Voita, Janice Lam, Prangthip Hansanti, Christophe Ropers, Elahe Kalbassi, Cynthia Gao, Loïc Barrault, Marta R. Costa-jussà* [[paper]](https://arxiv.org/abs/2305.11746) 2023.05
-
-3. **HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models** `arXiv 2023`
-
-   *Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2305.11747) 2023.05
-
-4. **FELM: Benchmarking Factuality Evaluation of Large Language Models** `NeurIPS 2023`
-
-   *Shiqi Chen, Yiran Zhao, Jinghan Zhang, I-Chun Chern, Siyang Gao, Pengfei Liu, Junxian He* [[paper]](https://arxiv.org/pdf/2310.00741.pdf) 2023.09
 
 ## MultiModal
 
