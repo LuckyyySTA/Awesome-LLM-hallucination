@@ -124,7 +124,7 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 ## Hallucination Detection
 
-#### 1. Factual Inconsistency
+#### 1. Factuality-oriented Hallucination
 
 - **Retrieve External Facts**
 
@@ -152,7 +152,7 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
      *Boris A. Galitsky* [[paper]](https://www.preprints.org/manuscript/202307.1723/v1) 2023.07
 
-- **LLM Behavior**
+- **Uncertainty Estimation**
 
   1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `arXiv 2023`
 
@@ -166,53 +166,57 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
      *Ayush Agrawal, Lester Mackey, Adam Tauman Kalai* [[paper]](https://arxiv.org/abs/2305.18248) 2023.05
 
-  4. **Zero-Resource Hallucination Prevention for Large Language Models** `arXiv 2023`
+  4. **Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs** `arXiv 2023`
 
+     *Miao Xiong, Zhiyuan Hu, Xinyang Lu, Yifei Li, Jie Fu, Junxian He, Bryan Hooi* [[paper]](https://arxiv.org/abs/2306.13063) 2023.06
+  
+  5. **Zero-Resource Hallucination Prevention for Large Language Models** `arXiv 2023`
+  
      *Junyu Luo, Cao Xiao, Fenglong Ma* [[paper]](https://arxiv.org/abs/2309.02654) 2023.09
+  
+  6. **LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples** `arXiv 2023`
+  
+     *Jia-Yu Yao, Kun-Peng Ning, Zhen-Hui Liu, Mu-Nan Ning, Li Yuan* [[paper]](https://arxiv.org/abs/2310.01469) 2023.10
+  
+- **LLM Internal Belief**
 
-#### 2. Context Inconsistency
+  1. **The Internal State of an LLM Knows When its Lying** `arXiv 2023`
 
-#### 3. Logical Inconsistency
+     *Amos Azaria, Tom Mitchell* [[paper]](https://arxiv.org/abs/2304.13734) 2023.04
 
-1. **The Internal State of an LLM Knows When its Lying** `arXiv 2023`
+#### 2. Faithfulness-oriented Hallucination
 
-   *Amos Azaria, Tom Mitchell* [[paper]](https://arxiv.org/abs/2304.13734) 2023.04
-
-2. **Zero-shot Faithful Factual Error Correction** `ACL 20023`
+1. **Zero-shot Faithful Factual Error Correction** `ACL 20023`
 
    *Kung-Hsiang Huang, Hou Pong Chan, Heng Ji* [[paper]](https://arxiv.org/abs/2305.07982) 2023.05
 
-3. **Fact-Checking Complex Claims with Program-Guided Reasoning** `ACL 2023`
+2. **Fact-Checking Complex Claims with Program-Guided Reasoning** `ACL 2023`
 
    *Liangming Pan, Xiaobao Wu, Xinyuan Lu, Anh Tuan Luu, William Yang Wang, Min-Yen Kan, Preslav Nakov* [[paper]](https://arxiv.org/abs/2305.12744) 2023.05
 
-4. **FACTKG: Fact Verification via Reasoning on Knowledge Graphs** `ACL 2023`
+3. **FACTKG: Fact Verification via Reasoning on Knowledge Graphs** `ACL 2023`
 
    *Jiho Kim, Sungjin Park, Yeonsu Kwon, Yohan Jo, James Thorne, Edward Choi* [[paper]](https://arxiv.org/abs/2305.06590) 2023.05
 
-5. **Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models** `arXiv 2023`
+4. **Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models** `arXiv 2023`
 
    *Miaoran Li, Baolin Peng, Zhu Zhang* [[paper]](https://arxiv.org/abs/2305.14623) 2023.05
 
-11. **Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs** `arXiv 2023`
+5. **Generating Benchmarks for Factuality Evaluation of Language Models** `arXiv 2023`
 
-    *Miao Xiong, Zhiyuan Hu, Xinyang Lu, Yifei Li, Jie Fu, Junxian He, Bryan Hooi* [[paper]](https://arxiv.org/abs/2306.13063) 2023.06
+   *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.07
 
-12. **Generating Benchmarks for Factuality Evaluation of Language Models** `arXiv 2023`
+6. **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** `arXiv 2023`
 
-    *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.07
+   *Ning Miao, Yee Whye Teh, Tom Rainforth* [[paper]](https://arxiv.org/abs/2308.00436) 2023.08
 
-13. **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** `arXiv 2023`
+7. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
 
-    *Ning Miao, Yee Whye Teh, Tom Rainforth* [[paper]](https://arxiv.org/abs/2308.00436) 2023.08
+   *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764) 2023.08
 
-14. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
+8. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
 
-    *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764) 2023.08
-
-15. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
-
-    *Anirudh Mittal, Timo Schick, Mikel Artetxe, Jane Dwivedi-Yu* [[paper]](https://arxiv.org/abs/2308.12157) 2023.08
+   *Anirudh Mittal, Timo Schick, Mikel Artetxe, Jane Dwivedi-Yu* [[paper]](https://arxiv.org/abs/2308.12157) 2023.08
 
 ## Hallucination Benchmark
 
