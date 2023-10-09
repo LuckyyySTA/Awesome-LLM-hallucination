@@ -186,6 +186,16 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
 #### 2. Faithfulness-oriented Hallucination
 
+1. **Optimal Transport for Unsupervised Hallucination Detection in Neural Machine Translation** `ACL 2023`
+
+   *Nuno M. Guerreiro, Pierre Colombo, Pablo Piantanida, André F. T. Martins* [[paper]](https://arxiv.org/abs/2212.09631) 2022.12
+
+2. **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** `arXiv 2023`
+
+   *Ning Miao, Yee Whye Teh, Tom Rainforth* [[paper]](https://arxiv.org/abs/2308.00436) 2023.08
+
+   
+
 1. **Zero-shot Faithful Factual Error Correction** `ACL 20023`
 
    *Kung-Hsiang Huang, Hou Pong Chan, Heng Ji* [[paper]](https://arxiv.org/abs/2305.07982) 2023.05
@@ -206,15 +216,11 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.07
 
-6. **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** `arXiv 2023`
-
-   *Ning Miao, Yee Whye Teh, Tom Rainforth* [[paper]](https://arxiv.org/abs/2308.00436) 2023.08
-
-7. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
+6. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models** `arXiv 2023`
 
    *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764) 2023.08
 
-8. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
+7. **Evaluation of Faithfulness Using the Longest Supported Subsequence** `arXiv 2023`
 
    *Anirudh Mittal, Timo Schick, Mikel Artetxe, Jane Dwivedi-Yu* [[paper]](https://arxiv.org/abs/2308.12157) 2023.08
 
