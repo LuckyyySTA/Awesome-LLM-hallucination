@@ -50,6 +50,14 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
      *Yike Wang, Shangbin Feng, Heng Wang, Weijia Shi, Vidhisha Balachandran, Tianxing He, Yulia Tsvetkov* [[paper]](https://arxiv.org/abs/2310.00935) 2023.10
 
+  5. **Factuality Challenges in the Era of Large Language Models** `arXiv 2023`
+
+     *Isabelle Augenstein, Timothy Baldwin, Meeyoung Cha, Tanmoy Chakraborty, Giovanni Luca Ciampaglia, David Corney, Renee DiResta, Emilio Ferrara, Scott Hale, Alon Halevy, Eduard Hovy, Heng Ji, Filippo Menczer, Ruben Miguez, Preslav Nakov, Dietram Scheufele, Shivam Sharma, Giovanni Zagni* [[paper]](https://arxiv.org/abs/2310.05189) 2023.10
+
+  6. **Do Large Language Models Know about Facts?** `arXiv 2023`
+
+     *Xuming Hu, Junzhe Chen, Xiaochuan Li, Yufei Guo, Lijie Wen, Philip S. Yu, Zhijiang Guo* [[paper]](https://arxiv.org/abs/2310.05177) 2023.10
+
 - **Knowledge Recall**
 
   1. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
@@ -403,6 +411,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 24. **Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning** `arXiv 2023`
 
     *Linhao Luo, Yuan-Fang Li, Gholamreza Haffari, Shirui Pan* [[paper]](https://arxiv.org/abs/2310.01061) 2023.10
+
+25. **Self-Knowledge Guided Retrieval Augmentation for Large Language Models** `arXiv 2023`
+
+    *Yile Wang, Peng Li, Maosong Sun, Yang Liu* [[paper]](https://arxiv.org/abs/2310.05002) 2023.10
 
 #### Attributable LLM
 
