@@ -58,6 +58,14 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
      *Xuming Hu, Junzhe Chen, Xiaochuan Li, Yufei Guo, Lijie Wen, Philip S. Yu, Zhijiang Guo* [[paper]](https://arxiv.org/abs/2310.05177) 2023.10
 
+  7. **Exploring Memorization in Fine-tuned Language Models** `arXiv 2023`
+
+     *Shenglai Zeng, Yaxin Li, Jie Ren, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Shuaiqiang Wang, Jiliang Tang, Dawei Yin* [[paper]](https://arxiv.org/abs/2310.06714) 2023.10
+
+  8. **Impact of Co-occurrence on Factual Knowledge of Large Language Models** `EMNLP 2023 findings`
+
+     *Cheongwoong Kang, Jaesik Choi* [[paper]](https://arxiv.org/abs/2310.08256) 2023.10
+
 - **Knowledge Recall**
 
   1. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
@@ -262,6 +270,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
    *Qinyuan Cheng, Tianxiang Sun, Wenwei Zhang, Siyin Wang, Xiangyang Liu, Mozhi Zhang, Junliang He, Mianqiu Huang, Zhangyue Yin, Kai Chen, Xipeng Qiu* [[paper]](https://arxiv.org/abs/2310.03368) 2023.10
 
+8. **A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection** `EMNLP 2023 findings`
+
+   *Shiping Yang, Renliang Sun, Xiaojun Wan* [[paper]](https://arxiv.org/abs/2310.06498)
+
 ## Mitigation
 
 #### Parameter Combination
@@ -415,6 +427,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 25. **Self-Knowledge Guided Retrieval Augmentation for Large Language Models** `arXiv 2023`
 
     *Yile Wang, Peng Li, Maosong Sun, Yang Liu* [[paper]](https://arxiv.org/abs/2310.05002) 2023.10
+
+26. **Towards Mitigating Hallucination in Large Language Models via Self-Reflection** `EMNLP 2023`
+
+    *Ziwei Ji, Tiezheng Yu, Yan Xu, Nayeon Lee, Etsuko Ishii, Pascale Fung* [[paper]](https://arxiv.org/abs/2310.06271) 2023.10
 
 #### Attributable LLM
 
