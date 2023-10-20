@@ -66,6 +66,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
      *Cheongwoong Kang, Jaesik Choi* [[paper]](https://arxiv.org/abs/2310.08256) 2023.10
 
+  9. **Automatic Hallucination Assessment for Aligned Large Language Models via Transferable Adversarial Attacks** `arXiv 2023`
+
+     *Xiaodong Yu, Hao Cheng, Xiaodong Liu, Dan Roth, Jianfeng Gao* [[paper]](https://arxiv.org/abs/2310.12516) 2023.10
+
 - **Knowledge Recall**
 
   1. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** `arXiv 2023`
@@ -171,6 +175,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
   7. **KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection** `EMNLP 2023`
 
      *Sehyun Choi, Tianqing Fang, Zhaowei Wang, Yangqiu Song* [[paper]](https://arxiv.org/abs/2310.09044) 2023.10
+
+  8. **Unveiling the Siren's Song: Towards Reliable Fact-Conflicting Hallucination Detection** `arXiv 2023`
+
+     *Xiang Chen, Duanzheng Song, Honghao Gui, Chengxi Wang, Ningyu Zhang, Fei Huang, Chengfei Lv, Dan Zhang, Huajun Chen* [[paper]](https://arxiv.org/abs/2310.12086) 2023.10
 
 - **Uncertainty Estimation**
 
@@ -432,9 +440,9 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 
     *Yile Wang, Peng Li, Maosong Sun, Yang Liu* [[paper]](https://arxiv.org/abs/2310.05002) 2023.10
 
-26. **Towards Mitigating Hallucination in Large Language Models via Self-Reflection** `EMNLP 2023`
+26. **Knowledge-Augmented Language Model Verification** `EMNLP 2023`
 
-    *Ziwei Ji, Tiezheng Yu, Yan Xu, Nayeon Lee, Etsuko Ishii, Pascale Fung* [[paper]](https://arxiv.org/abs/2310.06271) 2023.10
+    *Jinheon Baek, Soyeong Jeong, Minki Kang, Jong C. Park, Sung Ju Hwang* [[paper]](https://arxiv.org/abs/2310.12836) 2023.10
 
 #### Attributable LLM
 
@@ -535,6 +543,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
   9. **RAGAS: Automated Evaluation of Retrieval Augmented Generation** `arXiv 2023`
 
      *Shahul Es, Jithin James, Luis Espinosa-Anke, Steven Schockaert* [[papper]](https://arxiv.org/abs/2309.15217) 2023.09
+  
+  10. **Know Where to Go: Make LLM a Relevant, Responsible, and Trustworthy Searcher** `arXiv 2023`
+  
+     *Xiang Shi, Jiawei Liu, Yinpeng Liu, Qikai Cheng, Wei Lu* [[paper]](https://arxiv.org/abs/2310.12443) 2023.10
 
 
 #### Decoding
@@ -582,6 +594,10 @@ Below is a list of papers on **LLM hallucination** that I have compiled based on
 1. **Look-back Decoding for Open-Ended Text Generation** `arXiv 2023`
 
    *Nan Xu, Chunting Zhou, Asli Celikyilmaz, Xuezhe Ma* [[paper]](https://arxiv.org/abs/2305.13477) 2023.05
+   
+1. **Towards Mitigating Hallucination in Large Language Models via Self-Reflection** `EMNLP 2023`
+
+   *Ziwei Ji, Tiezheng Yu, Yan Xu, Nayeon Lee, Etsuko Ishii, Pascale Fung* [[paper]](https://arxiv.org/abs/2310.06271) 2023.10
 
 ##### Causes
 
