@@ -91,10 +91,11 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 ### :imp:Category of LLM Hallucination
 
 <p align=center>
-    <img src="./figure/example.pdf" width="75%" height="75%" alt="example"/>
+    <img src="./figure/example.png" width="75%" height="75%" alt="example"/>
     <br>
     <em>Two primary types of hallucination: factuality hallucination and faithfulness hallucination.</em>
 </p>
+
 
 ### :question:Hallucination Causes
 
