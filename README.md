@@ -289,6 +289,10 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
         *Xiang Chen, Duanzheng Song, Honghao Gui, Chengxi Wang, Ningyu Zhang, Fei Huang, Chengfei Lv, Dan Zhang, Huajun Chen* [[paper]](https://arxiv.org/abs/2310.12086) 2023.10
 
+    12. **Knowledge-Augmented Language Model Verification** `EMNLP 2023`
+
+        *Jinheon Baek, Soyeong Jeong, Minki Kang, Jong C. Park, Sung Ju Hwang* [[paper]](https://arxiv.org/abs/2310.12836) 2023.10
+
   - **Uncertainty Estimation**
 
     1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `arXiv 2023`
@@ -352,6 +356,10 @@ We have surveyed papers related to Large Language Model hallucination. This incl
     5. **SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization** `TACL 2022`
 
        *Philippe Laban, Tobias Schnabel, Paul N. Bennett, Marti A. Hearst* [[paper]](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00453/109470/SummaC-Re-Visiting-NLI-based-Models-for) 2021.11
+
+    6. **Knowledge-Augmented Language Model Verification** `EMNLP 2023`
+
+        *Jinheon Baek, Soyeong Jeong, Minki Kang, Jong C. Park, Sung Ju Hwang* [[paper]](https://arxiv.org/abs/2310.12836) 2023.10
 
   - **Question Answering-based Metrics**
 
@@ -654,6 +662,10 @@ We have surveyed papers related to Large Language Model hallucination. This incl
     16. **PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions** `arXiv 2023`
 
         *Anthony Chen, Panupong Pasupat, Sameer Singh, Hongrae Lee, Kelvin Guu* [[paper]](https://arxiv.org/abs/2305.14908) 2023.05
+
+    17. **Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering** `arXiv 2023`
+
+        *Jinheon Baek, Alham Fikri Aji, Amir Saffari* [[paper]](https://arxiv.org/abs/2306.04136) 2023.06
 
 - **Mitigating Knowledge Shortcut**
 
