@@ -35,8 +35,8 @@ This repository contains the resources for our survey paper.
     <br>
     <em>The main content flow and categorization of this survey.</em>
 </p>
-## :tada: Updates
 
+## :tada: Updates
 - 2023/11/09 The first version of our paper is available on [arXiv](https://arxiv.org/abs/2311.05232)
 
 ## :page_with_curl: Papers
