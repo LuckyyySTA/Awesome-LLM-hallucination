@@ -35,7 +35,7 @@ This repository contains the resources for our survey paper.
     <br>
     <em>The main content flow and categorization of this survey.</em>
 </p>
-## :tada:Updates
+## :tada: Updates
 
 - 2023/11/09 The first version of our paper is available on [arXiv](https://arxiv.org/abs/2311.05232)
 
@@ -116,7 +116,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 ---
 
-##### Flawed Data Source
+**Flawed Data Source**
 
 1. **On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?** `ACM FAccT 2021`
 
@@ -150,7 +150,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Yasumasa Onoe, Michael Zhang, Eunsol Choi, Greg Durrett* [[paper]](https://aclanthology.org/2022.findings-naacl.52/) 2022.05
 
-##### Inferior Data Utilization
+**Inferior Data Utilization**
 
 1. **How Pre-trained Language Models Capture Factual Knowledge? A Causal-Inspired Analysis** `ACL 2022 findings`
 
@@ -180,7 +180,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 ---
 
-##### Hallucination from Pre-training
+**Hallucination from Pre-training**
 
 1. **Exposing Attention Glitches with Flip-Flop Language Modeling** `arXiv 2023`
 
@@ -194,7 +194,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith* [[paper]](https://arxiv.org/abs/2305.13534) 2023.05
 
-##### Hallucination from Alignment
+**Hallucination from Alignment**
 
 1. **Reinforcement Learning from Human Feedback: Progress and Challenges** `Youtube`
 
@@ -216,7 +216,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 ---
 
-##### Inherent Sampling Randomness
+**Inherent Sampling Randomness**
 
 1. **Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding** `EMNLP 2021`
 
@@ -230,7 +230,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Renat Aksitov, Chung-Ching Chang, David Reitter, Siamak Shakeri, Yunhsuan Sung* [[paper]](https://arxiv.org/abs/2302.05578) 2023.02
 
-##### Imperfect Decoding Representation
+**Imperfect Decoding Representation**
 
 1. **Prevent the Language Model from being Overconfident in Neural Machine Translation** `ACL 2021`
 
@@ -260,9 +260,9 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 ---
 
-##### Factuality Hallucination Detection
+**Factuality Hallucination Detection**
 
-**Retrieve External Facts**
+##### Retrieve External Facts
 
 1. **Complex Claim Verification with Evidence Retrieved in the Wild** `arXiv 2023`
 
@@ -270,7 +270,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 2. **Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators** `EMNLP 2023`
 
- *Liang Chen, Yang Deng, Yatao Bian, Zeyu Qin, Bingzhe Wu, Tat-Seng Chua, Kam-Fai Wong* [[paper]](https://arxiv.org/abs/2310.07289) 2023.10
+   *Liang Chen, Yang Deng, Yatao Bian, Zeyu Qin, Bingzhe Wu, Tat-Seng Chua, Kam-Fai Wong* [[paper]](https://arxiv.org/abs/2310.07289) 2023.10
 
 3. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation** `arXiv 2023`
 
@@ -302,7 +302,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 10. **Truth-O-Meter: Collaborating with LLM in Fighting its Hallucinations** `arXiv 2023`
 
-   *Boris A. Galitsky* [[paper]](https://www.preprints.org/manuscript/202307.1723/v1) 2023.07
+    *Boris A. Galitsky* [[paper]](https://www.preprints.org/manuscript/202307.1723/v1) 2023.07
 
 11. **KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection** `EMNLP 2023`
 
@@ -316,7 +316,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
     *Jinheon Baek, Soyeong Jeong, Minki Kang, Jong C. Park, Sung Ju Hwang* [[paper]](https://arxiv.org/abs/2310.12836) 2023.10
 
-**Uncertainty Estimation**
+##### Uncertainty Estimation
 
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `arXiv 2023`
 
@@ -342,9 +342,9 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Jia-Yu Yao, Kun-Peng Ning, Zhen-Hui Liu, Mu-Nan Ning, Li Yuan* [[paper]](https://arxiv.org/abs/2310.01469) 2023.10
 
-##### Faithfulness Hallucination Detection
+**Faithfulness Hallucination Detection**
 
-**Fact-based Metrics**
+##### Fact-based Metrics
 
 1. **Towards Faithful Neural Table-to-Text Generation with Content-Matching Constraints** `ACL 2020`
 
@@ -358,7 +358,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Ben Goodrich, Vinay Rao, Peter J. Liu, and Mohammad Saleh* [[paper]](https://dl.acm.org/doi/10.1145/3292500.3330955) 2019.08
 
-**Classifier-based Metrics**
+##### Classifier-based Metrics
 
 1. **Ranking Generated Summaries by Correctness: An Interesting but Challenging Application for Natural Language Inference** `ACL 2019`
 
@@ -384,7 +384,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
     *Jinheon Baek, Soyeong Jeong, Minki Kang, Jong C. Park, Sung Ju Hwang* [[paper]](https://arxiv.org/abs/2310.12836) 2023.10
 
-**Question Answering-based Metrics**
+##### Question Answering-based Metrics
 
 1. **FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization** `ACL 2020`
 
@@ -406,7 +406,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Alexander Fabbri, Chien-Sheng Wu, Wenhao Liu, Caiming Xiong* [[paper]](https://aclanthology.org/2022.naacl-main.187/) 2022.07
 
-**Uncertainty Estimation**
+##### Uncertainty Estimation
 
 1. **On Hallucination and Predictive Uncertainty in Conditional Language Generation** `EACL 2021`
 
@@ -424,7 +424,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Nuno M. Guerreiro, Pierre Colombo, Pablo Piantanida, André F. T. Martins* [[paper]](https://arxiv.org/abs/2212.09631) 2022.12
 
-**Prompting-based Metrics**
+##### Prompting-based Metrics
 
 1. **ChatGPT as a Factual Inconsistency Evaluator for Text Summarization** `arXiv 2023`
 
@@ -450,7 +450,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 ---
 
-##### Hallucination Evaluation Benchmarks
+**Hallucination Evaluation Benchmarks**
 
 1. **TruthfulQA: Measuring How Models Mimic Human Falsehoods** `ACL 2022`
 
@@ -480,7 +480,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong* [[paper]](https://arxiv.org/abs/2310.03214) 2023.10
 
-##### Hallucination Detection Benchmarks
+**Hallucination Detection Benchmarks**
 
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `EMNLP 2023`
 
@@ -530,7 +530,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 ---
 
-##### Mitigating Misinformation and Biases
+**Mitigating Misinformation and Biases**
 
 1. **The Pile: An 800GB Dataset of Diverse Text for Language Modeling** `arXiv 2021`
 
@@ -564,9 +564,9 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Hrishikesh Viswanath, Tianyi Zhang* [[paper]](https://arxiv.org/abs/2302.05508) 2023.02
 
-##### Mitigating Knowledge Boundary
+**Mitigating Knowledge Boundary**
 
-**Knowledge Editing**
+##### Knowledge Editing
 
 1. **Knowledge Neurons in Pretrained Transformers**  `ACL 2022`
    *Damai Dai, Li Dong, Yaru Hao, Zhifang Sui, Baobao Chang, Furu Wei* [[paper]](https://arxiv.org/abs/2104.08696) 2022.03
@@ -624,7 +624,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
     *Yuval Pinter, Michael Elhadad* [[paper]](https://arxiv.org/abs/2310.11958) 2023.10
 
-**Retrieval Augmentation**
+##### Retrieval Augmentation
 
 1. **In-Context Retrieval-Augmented Language Models** `TACL 2023`
 
@@ -694,13 +694,13 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
     *Jinheon Baek, Alham Fikri Aji, Amir Saffari* [[paper]](https://arxiv.org/abs/2306.04136) 2023.06
 
-**Mitigating Knowledge Shortcut**
+##### Mitigating Knowledge Shortcut
 
 1. **Impact of Co-occurrence on Factual Knowledge of Large Language Models** `EMNLP 2023 findings`
 
    *Cheongwoong Kang, Jaesik Choi* [[paper]](https://arxiv.org/abs/2310.08256) 2023.10
 
-**Mitigating Knowledge Recall Failures**
+##### Mitigating Knowledge Recall Failures
 
 1. **MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions** `EMNLP 2023`
 
@@ -718,7 +718,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 ---
 
-##### Mitigating Pretraining-related Hallucination
+**Mitigating Pretraining-related Hallucination**
 
 1. **BatGPT: A Bidirectional Autoregessive Talker from Generative Pre-trained Transformer** `arXiv 2023`
 
@@ -740,7 +740,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Chaojun Wang, Yang Liu, Wai Lam* [[paper]](https://arxiv.org/abs/2305.09154) 2023.05
 
-##### Mitigating Misalignment Hallucination
+**Mitigating Misalignment Hallucination**
 
 1. **Self-critiquing models for assisting human evaluators** `arXiv 2022`
 
@@ -766,7 +766,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
 ---
 
-##### Factuality Enhanced Decoding
+**Factuality Enhanced Decoding**
 
 1. **Factuality Enhanced Language Models for Open-Ended Text Generation** `NeurIPS 20222`
 
@@ -800,7 +800,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Ziwei Ji, Tiezheng Yu, Yan Xu, Nayeon Lee, Etsuko Ishii, Pascale Fung* [[paper]](https://arxiv.org/abs/2310.06271) 2023.10
 
-##### Faithfulness Enhanced Decoding
+**Faithfulness Enhanced Decoding**
 
 1. **Sticking to the Facts: Confident Decoding for Faithful Data-to-Text Generation** `arXiv 2019`
 
