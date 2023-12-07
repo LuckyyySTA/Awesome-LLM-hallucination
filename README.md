@@ -694,6 +694,10 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
     *Jinheon Baek, Alham Fikri Aji, Amir Saffari* [[paper]](https://arxiv.org/abs/2306.04136) 2023.06
 
+18. **WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia** `EMNLP 2023 findings`
+
+    *Sina J. Semnani, Violet Z. Yao, Heidi C. Zhang, Monica S. Lam* [[paper]](https://arxiv.org/abs/2305.14292) [[github]](https://github.com/stanford-oval/WikiChat) [[demo]](https://wikichat.genie.stanford.edu/) 2023.05
+
 ##### Mitigating Knowledge Shortcut
 
 1. **Impact of Co-occurrence on Factual Knowledge of Large Language Models** `EMNLP 2023 findings`
