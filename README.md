@@ -252,6 +252,10 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Haw-Shiuan Chang, Andrew McCallum* [[paper]](https://aclanthology.org/2022.acl-long.554/) 2022.05
 
+6. **The Curious Case of Hallucinatory (Un)answerability: Finding Truths in the Hidden States of Over-Confident Large Language Models** `EMNLP 2023`
+
+   *Aviv Slobodkin, Omer Goldman, Avi Caciularu, Ido Dagan, Shauli Ravfogel* [[paper]](https://aclanthology.org/2023.emnlp-main.220/) 2023.12
+
 ###  :100:Hallucination Detection and Benchmarks
 
 > We offer a detailed overview of the current methodologies for detecting hallucinations, specifically focusing on **factuality** and **faithfulness**. Additionally, we review the relevant benchmarks, which are principally divided into two categories: **hallucination evaluation benchmarks** and **hallucination detection benchmarks**
