@@ -312,7 +312,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
     *Sehyun Choi, Tianqing Fang, Zhaowei Wang, Yangqiu Song* [[paper]](https://arxiv.org/abs/2310.09044) 2023.10
 
-12. **Unveiling the Siren's Song: Towards Reliable Fact-Conflicting Hallucination Detection** `arXiv 2023`
+12. **FactCHD: Benchmarking Fact-Conflicting Hallucination Detection** `arXiv 2023`
 
     *Xiang Chen, Duanzheng Song, Honghao Gui, Chengxi Wang, Ningyu Zhang, Fei Huang, Chengfei Lv, Dan Zhang, Huajun Chen* [[paper]](https://arxiv.org/abs/2310.12086) 2023.10
 
@@ -525,6 +525,10 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 10. **SAC3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency** `EMNLP 2023`
 
     *Jiaxin Zhang, Zhuohang Li, Kamalika Das, Bradley A. Malin, Sricharan Kumar* [[paper]](https://arxiv.org/abs/2311.01740) 2023.11
+
+11. **Unified Hallucination Detection for Multimodal Large Language Models** `arXiv 2024`
+
+    *Xiang Chen, Chenxi Wang, Yida Xue, Ningyu Zhang, Xiaoyan Yang, Qiang Li, Yue Shen, Jinjie Gu, Huajun Chen* [[paper]](https://arxiv.org/abs/2402.03190) 2024.2
 
 ### :dart:Hallucination Mitigation
 
