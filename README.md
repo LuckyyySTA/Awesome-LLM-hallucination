@@ -706,6 +706,11 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
     *Sina J. Semnani, Violet Z. Yao, Heidi C. Zhang, Monica S. Lam* [[paper]](https://arxiv.org/abs/2305.14292) [[github]](https://github.com/stanford-oval/WikiChat) [[demo]](https://wikichat.genie.stanford.edu/) 2023.05
 
+19. **Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning** `ICSE 2023`
+
+    *Nashid Noor, Mifta Santaha, Ali Mesbah* [[paper]](https://people.ece.ubc.ca/amesbah/resources/papers/cedar-icse23.pdf) 2023.04
+
+
 ##### Mitigating Knowledge Shortcut
 
 1. **Impact of Co-occurrence on Factual Knowledge of Large Language Models** `EMNLP 2023 findings`
