@@ -817,6 +817,10 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Ziwei Ji, Tiezheng Yu, Yan Xu, Nayeon Lee, Etsuko Ishii, Pascale Fung* [[paper]](https://arxiv.org/abs/2310.06271) 2023.10
 
+9. **TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space** `arXiv 2024`
+
+   *Shaolei Zhang, Tian Yu, Yang Feng* [[paper]](https://arxiv.org/abs/2402.17811) 2024.02
+
 **Faithfulness Enhanced Decoding**
 
 1. **Sticking to the Facts: Confident Decoding for Faithful Data-to-Text Generation** `arXiv 2019`
