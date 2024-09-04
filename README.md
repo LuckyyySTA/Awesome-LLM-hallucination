@@ -484,6 +484,11 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong* [[paper]](https://arxiv.org/abs/2310.03214) 2023.10
 
+
+7. **LLMs hallucinate graphs too: a structural perspective** `arXiv 2024`
+
+   *Erwan Le Merrer, Gilles Tredan* [[paper]](https://arxiv.org/abs/2409.00159) 2024.09
+
 **Hallucination Detection Benchmarks**
 
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `EMNLP 2023`
