@@ -346,6 +346,10 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Jia-Yu Yao, Kun-Peng Ning, Zhen-Hui Liu, Mu-Nan Ning, Li Yuan* [[paper]](https://arxiv.org/abs/2310.01469) 2023.10
 
+7. **DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness** `arXiv 2026`
+
+   *Rohan Bhatnagar, Youran Sun, Chi Andrew Zhang, Yixin Wen, Haizhao Yang* [[paper]](https://arxiv.org/abs/2601.14210) 2026.01
+
 **Faithfulness Hallucination Detection**
 
 ##### Fact-based Metrics
