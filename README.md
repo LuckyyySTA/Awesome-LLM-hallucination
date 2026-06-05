@@ -484,6 +484,11 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
    *Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong* [[paper]](https://arxiv.org/abs/2310.03214) 2023.10
 
+
+8. **REFUTE: Scientific critique & epistemic calibration benchmark** `Hugging Face 2026`
+
+   *BGPT* [[dataset]](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) [[technical report]](https://huggingface.co/datasets/BGPT-OFFICIAL/refute/blob/main/TECHNICAL_REPORT.md) 2026.02
+
 **Hallucination Detection Benchmarks**
 
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models** `EMNLP 2023`
