@@ -451,6 +451,7 @@ We have surveyed papers related to Large Language Model hallucination. This incl
    *Vaibhav Adlakha, Parishad BehnamGhader, Xing Han Lu, Nicholas Meade, Siva Reddy* [[paper]](https://arxiv.org/abs/2307.16877) 2023.07
 
 #### Hallucination Benchmarks
+- **[REFUTE](https://bgpt.pro/refute)** — Scientific critique & epistemic calibration (judge-free). Tests whether models overclaim on recent science summaries; critique skill ≠ calibration. [Dataset](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) · [Leaderboard](https://huggingface.co/spaces/BGPT-OFFICIAL/refute-leaderboard)
 
 ---
 
