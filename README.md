@@ -710,6 +710,14 @@ We have surveyed papers related to Large Language Model hallucination. This incl
 
     *Nashid Noor, Mifta Santaha, Ali Mesbah* [[paper]](https://people.ece.ubc.ca/amesbah/resources/papers/cedar-icse23.pdf) 2023.04
 
+20. **ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation** `NeurIPS 2025`
+
+    *Pengcheng Huang, Zhenghao Liu, Yukun Yan, Haiyan Zhao, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong* [[paper]](https://arxiv.org/abs/2502.15543) [[github]](https://github.com/OpenBMB/ParamMute) 2025.02
+
+21. **SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation** `arXiv 2026`
+
+    *Ruochang Li, Pengcheng Huang, Zhenghao Liu, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun* [[paper]](https://arxiv.org/abs/2606.27786) [[github]](https://github.com/OpenBMB/SPARK) 2026.06
+
 
 ##### Mitigating Knowledge Shortcut
 
